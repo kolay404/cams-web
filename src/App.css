@@ -1,38 +1,208 @@
-.App {
-  text-align: center;
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.split-screen {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100vh; /* Full viewport height */
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.left-container, .right-container {
+  flex: 1 1 50%; /* Each container takes up 50% of the width on large screens */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.left-container {
+  background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.right-container {
+  background-color: maroon;
+  color: black; /* Set text color to black for readability on white */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.logo-image {
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+}
+
+/* Titles */
+.title1, .title2, .title3 {
+  font-size: 2.5rem; /* Smaller initial size */
+  color: black;
+  margin: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 1rem;
+}
+
+.title1 {
+  padding-top: 10vh;
+}
+
+.title3 {
+  padding-bottom: 10vh;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 10vh;
+  padding-left: 3rem;
+  padding-right: 0;
+  position: relative;
+  width: 100%;
+}
+
+.moving-button {
+  position: relative;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smoother transition */
+  outline: none;
+  height: 20vh;
+  width: 100%;
+  max-width: none; /* Limit max width of button */
+  overflow: hidden;
+}
+
+.moving-button:hover {
+  transform: translateX(20px); /* Less movement on small screens */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.button1 {
+  background-color: #1976af;
+}
+
+.button2 {
+  background-color: #f7bb29;
+}
+
+.button3 {
+  background-color: #556098;
+}
+
+.button4 {
+  background-color: #6ebe81;
+}
+
+/* Vertical lines */
+.vertical-line {
+  width: 0.5vw; /* Makes the vertical line's width more responsive */
+  background-color: white;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.vertical-line.left {
+  left: 2vw; /* Adjust position to be more responsive */
+}
+
+.vertical-line.right {
+  right: 2vw; /* Adjust position to be more responsive */
+}
+
+/* Media Query for small screens */
+@media (max-width: 768px) {
+  .split-screen {
+    flex-direction: column; /* Stack containers vertically on smaller screens */
   }
-  to {
-    transform: rotate(360deg);
+
+  .moving-button {
+    width: 90%; /* Make it smaller on smaller screens */
+    font-size: 0.8rem; /* Reduce button font size */
+    height: 10vh; /* Adjust button height */
+    max-width: 400px; /* Limit max width of button */
+  }
+
+  .button-container {
+    padding-top: 5vh;
+    padding-left: 2rem; /* Adjust padding for smaller screens */
+    gap: 1rem; /* Reduce gap between buttons */
+  }
+
+  .vertical-line {
+    width: 0.3rem; /* Make lines thinner */
+    height: 50vh; /* Adjust height to match smaller containers */
+  }
+
+  .vertical-line.left {
+    left: 5vw;
+  }
+
+  .vertical-line.right {
+    left: 22.5vw;
+  }
+
+  .left-container, .right-container {
+    flex: 1 1 100%; /* Each container takes up full width on small screens */
+    height: auto; /* Use auto height for better flexibility */
+    padding: 5vh 1rem; /* Add padding for spacing */
+  }
+
+  /* Adjust titles for smaller screens */
+  .title1, .title2, .title3 {
+    font-size: 1.5rem; /* Smaller font size for readability */
+    padding-left: 0.5rem;
+  }
+
+  .title1 {
+    padding-top: 5vh; /* Adjust padding for smaller screens */
+  }
+
+  .title3 {
+    padding-bottom: 5vh;
+  }
+}
+
+/* Extra Small Screen (mobile) */
+@media (max-width: 480px) {
+  .moving-button {
+    height: 8vh;
+    font-size: 0.7rem;
+  }
+
+  .vertical-line {
+    width: 0.15rem;
+  }
+
+  .vertical-line.left {
+    left: 2vw;
+  }
+
+  .vertical-line.right {
+    right: 2vw;
+  }
+
+  .button-container {
+    padding-top: 5vh;
+    padding-left: 2rem; /* Adjust padding for small devices */
+  }
+
+  /* Extra adjustments to titles on very small screens */
+  .title1, .title2, .title3 {
+    font-size: 1.2rem; /* Ensure titles are readable and fit within layout */
+    padding-left: 0.3rem;
   }
 }
