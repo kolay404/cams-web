@@ -6,43 +6,90 @@ import Header from '../components/Header';
 const Aralin1Content = () => (
   <div className="content-grid">
     <div className="text-section highlight">
-      <h2>Aralin 1: Introduksyon sa Komunikasyon</h2>
+      <h2>Aralin 1: Panimula</h2>
       <div className="text-content">
-        <p>Ang komunikasyon ay isang mahalagang bahagi ng ating pang-araw-araw na buhay. Ito ay ang proseso ng pagpapalitan ng kaalaman, ideya, damdamin, at kaisipan sa pagitan ng dalawa o higit pang tao. Sa pamamagitan ng komunikasyon, nabubuo ang ugnayan at pag-unawaan sa pagitan ng mga tao.</p>
-
-        <h3>Kahulugan ng Komunikasyon</h3>
-        <p>Ang komunikasyon ay isang dinamikong proseso na kinabibilangan ng pagpapahayag at pagtanggap ng mensahe. Ito ay maaaring verbal o di-verbal, nakasulat o pasalita, at maaaring gawin sa iba't ibang paraan at plataporma.</p>
+        <p><i><b>Alpabetong Filipino</b></i> ay ang kasalukuyang alpabeto na ginagamit sa wikang Filipino, na binubuo ng 28 na titik. Ito ay resulta ng pagsasanib ng makalumang abakada at ng alpabetong Ingles upang makapag-akomodate ng mga tunog mula sa iba't ibang wika sa Pilipinas at mga banyagang salita.</p>        
+            <li>Mga Titik sa Alpabetong Filipino</li>
+              <p><i>A B C D E F G H I J K L M N Ñ Ng O P Q R S T U V W X Y Z</i></p>
         
-        <blockquote>
-          "Ang komunikasyon ay hindi lamang tungkol sa pagsasalita, kundi tungkol din sa pakikinig at pag-unawa."
-        </blockquote>
-
-        <h3>Mga Elemento ng Komunikasyon</h3>
-        <ul>
-          <li><strong>Tagapagpadala (Sender)</strong> - Ang pinagmumulan ng mensahe o impormasyon</li>
-          <li><strong>Mensahe (Message)</strong> - Ang nilalaman ng komunikasyon</li>
-          <li><strong>Daluyan (Channel)</strong> - Ang paraan ng paghahatid ng mensahe</li>
-          <li><strong>Tagatanggap (Receiver)</strong> - Ang tumatanggap ng mensahe</li>
-          <li><strong>Feedback</strong> - Ang tugon o reaksyon sa mensahe</li>
-        </ul>
-
-        <h3>Layunin ng Komunikasyon</h3>
-        <p>Ang komunikasyon ay may iba't ibang layunin na nakatutulong sa ating pang-araw-araw na pamumuhay:</p>
-        <ul>
-          <li>Pagbabahagi ng impormasyon at kaalaman</li>
-          <li>Pagpapahayag ng damdamin at emosyon</li>
-          <li>Pagkakaroon ng impluwensya sa iba</li>
-          <li>Pagbuo ng relasyon at ugnayan</li>
-        </ul>
-
-        <h3>Kahalagahan sa Lipunan</h3>
-        <p>Sa ating lipunan, ang komunikasyon ay nagsisilbing pundasyon ng mga sumusunod:</p>
+        <p><i><b>Mga Tuntunin sa Pagbabaybay</b></i> ay mga gabay sa tamang pagsulat ng mga salita sa wikang Filipino, lalo na sa pagbaybay ng mga hiram na salita. Ang mga patnubay na ito ay naglalayong magkaroon ng uniformidad at pagkakaintindihan sa paggamit ng wika. Narito ang ilan sa mahahalagang tuntunin sa pagbabaybay sa Filipino:</p>        
         <ol>
-          <li>Pagbuo ng mga relasyon at pakikipag-ugnayan</li>
-          <li>Pagpapanatili ng kultura at tradisyon</li>
-          <li>Pag-unlad ng lipunan at ekonomiya</li>
-          <li>Paglutas ng mga suliranin at hindi pagkakaunawaan</li>
-        </ol>
+        <li><b>Mga Grapema</b>
+          <p> Ito ay binubuo ng:</p>
+          <ol type="a">
+            <li>Letra. Binubuo ng dalawampu’t walong (28) letra.</li>
+            <li>Hindi Letra.
+              <ul>
+                <li>paiwa (‘) at pakupya (^) na sumisimbolo sa impit na tunog (‘)</li>
+                <li>tuldik na pahilis (‘) na sumisimbolo sa diin o haba.</li>
+                <li>Bantas, gaya ng tuldol (.), pananong (?), padamdam (!), at gitling (-).</li>
+              </ul>
+            </li>
+          </ol>
+        </li>
+        <li><b>Mga Tuntuning Panlahat sa Pagbaybay</b>
+          <ol type="a">
+            <li>Pasalitang Pagbaybay. Ang ibig sabihin ay isa-isang pagbigkas sa maayos na pagkakasunod-sunod ng mga letrang bumubuo sa isang salita, pantig, akronim, daglat, inisyal, simbolong pang-agam, at iba pa.</li>
+            <ul>
+                <li><i>Akronim</i></li>
+                    <p>ASEAN (Association of Southeast Asian Nation)
+                        /ey-es-i-ey-en/</p>
+                    <p>ARMM (Autonomous Region of Muslim Mindanao)
+                        /ey-ar-em-em/</p>
+                <li><i>Daglat</i></li>
+                    <p>Dra. (Doktora) /kapital di-ar-ey/</p>
+                    <p>Bb. (Binibini) /kapital bi-bi/</p>
+                <li><i>Inisyal ng Tao</i></li>
+                    <p>LKS (Lope K. Santos)	/el-key-as/</p>
+                    <p>CPR (Carlos P. Romulo)	/si-pi-ar/</p>
+                <li><i>Inisyal ng Samahan</i></li>
+                    <p>KWF (Komisyon sa Wikang Filipino) /key-dobolyu-ef/</p>
+                    <p>UP (Unibersidad ng Pilipinas) /yu-pi/</p>
+                <li><i>Simbolong Pang-agham/Pangmatematika</i></li>
+                    <p>lb. (pound)		/el-bi/</p>
+                    <p>kg. (kilogram)		/key-ji/</p>
+              </ul>
+              <li>Pasulat na Pagbaybay</li>
+              <ul>
+                  <li>Panatilihin ang orihinal na anyo ng mga salitang mula sa katutubong wika sa Pilipinas.</li>
+                  <p>“butanding” (Bicol) – sa halip ng whale shark</p>
+                  <li>Sa pagbaybay ng mga hiram na salita mula sa mga banyagang wika, panatilihin ang original nitong anyo.</li>
+                  <p>pizza pie	bouquet</p>
+                  <li>Sa pagbaybay ng mga salitang mula sa Espanyol, baybayin ito ayon sa ABAKADA.</li>
+                  <p>familia		-	pamilya</p>
+                  <p>cheque		-	tseke</p>
+                  <li>Sa pag-uulit ng salitang-ugat na nagtatapos sa pantig na e hindi ito pinapalitan ang letrang i. Kinakabitan ng pang-ugnay/linker (-ng) at ginagamitan ng gitling sa pagitan ng salitang-ugat.</li>
+                  <p>libre		-	libreng-libre</p>
+                  <p>suwerte		-	suwerteng-suwerte</p>
+                  <li>Sa pag-uulit ng salitang-ugat na nagtatapos sa pantig na o hindi ito pinapalitan ang letrang u. Ginagamitan ng gitling sa pagitan ng salitang-ugat.</li>
+                  <p>bato		-	bato-bato</p>
+                  <p>piso		-	piso-piso</p>
+                  <li>Kapag hinuhulapian ang huling pantig ng salitang-ugat na nagtatapos sa e, ito ay nagiging i at ang o ay u.</li>
+                  <p>ataki		-	atakihin</p>
+                  <p>salbahe		-	salbahihin</p>
+                  <li>Makabuluhan ang tunog na e at o kapag inihambingan ng mga hiram na salita sa mga katutubo o hiram na salita.</li>
+                  <p>mesa		-	misa</p>
+                  <p>uso		-	oso</p>
+              </ul>
+          </ol>
+          <li><b>Ang Paghihiram</b></li>
+          <ol type="a">
+            <li><i>Tumbasan ng kasulukuyang leksikon sa Filipino ang mga salitang hiram o banyaga.</i></li>
+              <p>rule	-	tuntunin</p>
+            <li><i>Gamitin ang natatanging mga salita mula sa mga katutubong wika sa Pilipinas at panatilihin ang orihinal na baybay.</i></li>
+              <p>“imam” (Tausug)	-	tawag sa paring Muslim</p>
+            <li><i>Mga Salitang Hiram sa Espanol</i></li>
+              <ul>
+                  <li>Baybayin ang salita ayon sa ABAKADA</li>
+                  <p>telefono	-	telepono</p>
+                  <li>Sa mga salitang hiram sa Espanol na may e, panatilihin ang e.</li>
+                  <p>estudyante	-	hindi istudyante</p>
+                  <li>Sa mga salitang hiram sa Espanol na may o, panatilihin ang o.</li>
+                  <p>opisina	-	hindi upisina</p>
+              </ul>
+          </ol>
+        </li>
+      </ol>
       </div>
     </div>
   </div>
@@ -51,39 +98,23 @@ const Aralin1Content = () => (
 const Aralin2Content = () => (
   <div className="content-grid">
     <div className="text-section highlight">
-      <h2>Aralin 2: Verbal na Komunikasyon</h2>
+      <h2>Aralin 2: Ang Komunikasyon</h2>
       <div className="text-content">
-        <p>Ang verbal na komunikasyon ay ang paggamit ng mga salita at wika sa pagpapahayag ng ating mga ideya, damdamin, at kaisipan. Ito ang pinaka-karaniwang paraan ng pakikipag-ugnayan sa ating lipunan.</p>
-
-        <h3>Pasalitang Komunikasyon</h3>
-        <p>Ang pasalitang komunikasyon ay ang direktang paggamit ng mga salita sa pamamagitan ng pagsasalita. Ito ay may mga sumusunod na anyo:</p>
-        <ul>
-          <li><strong>Talumpati</strong> - Pormal na paghahatid ng mensahe sa harap ng maraming tao</li>
-          <li><strong>Panayam</strong> - Pakikipag-usap sa layuning makalikom ng impormasyon</li>
-          <li><strong>Usapan</strong> - Impormal na palitan ng mga ideya at saloobin</li>
-          <li><strong>Pagtatanong</strong> - Paghingi ng impormasyon o paglilinaw</li>
-        </ul>
-
-        <blockquote>
-          "Ang maayos na pagsasalita ay susi sa malinaw na komunikasyon at mabisang pakikipag-ugnayan."
-        </blockquote>
-
-        <h3>Pasulat na Komunikasyon</h3>
-        <p>Ang pasulat na komunikasyon ay ang pagpapahayag ng mga ideya sa pamamagitan ng nakasulat na mga salita. Kabilang dito ang:</p>
-        <ul>
-          <li><strong>Liham</strong> - Pormal o impormal na pakikipag-ugnayan sa pamamagitan ng sulat</li>
-          <li><strong>Sanaysay</strong> - Masinop na paglalahad ng mga ideya at pananaw</li>
-          <li><strong>Ulat</strong> - Sistematikong paglalahad ng impormasyon o pananaliksik</li>
-          <li><strong>Digital na Mensahe</strong> - Modernong paraan ng nakasulat na komunikasyon</li>
-        </ul>
-
-        <h3>Kahalagahan ng Verbal na Komunikasyon</h3>
-        <p>Ang verbal na komunikasyon ay mahalaga sa mga sumusunod na aspeto:</p>
+        <p>Ang <i><b>komunikasyon</b></i> ay ang proseso ng pagpapahayag ng kaisipan, impormasyon, at damdamin sa paraang berbal at di-berbal. Mahalaga ito sa sining ng pakikipagtalastasan sapagkat ito ang pundasyon ng lahat ng anyo ng interaksyon sa lipunan.</p>
         <ol>
-          <li>Malinaw na pagpaparating ng mensahe</li>
-          <li>Pagbuo ng mga relasyon at ugnayan</li>
-          <li>Pag-unlad ng akademiko at propesyonal na buhay</li>
-          <li>Pagpapanatili ng kultura at tradisyon</li>
+          <li><b>Mga Uri mg Komunikasyon</b>
+            <ol>
+              <li>Komunikasyong Berbal - Ang paggamit ng wika sa pasalita at pasulat na anyo.</li>
+              <li>Komunikasyong Di-Berbal - Ang pagpapahayag ng mensahe sa pamamagitan ng kilos, ekspresyon ng mukha, at kumpas ng kamay.</li>
+            </ol>
+          </li>
+          <li>Mga Uri ng Prosesong Pangkomunikasyon:
+            <ol>
+              <li><i>Intrapersonal</i> - uri ng komunikasyong tinatawag na pansarili lamang sapagkat ito ay nagaganap sa mga sandali ng pagmumuni-muni o pagninilay-nilay. Nagaganap ang komunikasyon sa isipan ng tao. Ang utak ay pinoproseso, binibigyang interpretasyon at sinusuri ang mga impormasyong natanggap.</li>
+              <li><i>Interpersonal</i> - nagaganap ito sa pagitan ng dalawang tao o pakikipag-usap ng isang tao sa isang mallit na pangkat. Nakikipag-ugnayan o nakikisalamuha tayo sa komunikasyong interpersonal dahil kailangan nating maipahayag at matanggap ang pangangailangan nating personal.</li>
+              <li><i>Pampubliko</i> - ito sa pagitan ng isang tao at malalaking pangkat ng mga tao. Pinapanatili nito ang relasyong pampubliko.</li>
+            </ol>
+          </li>
         </ol>
       </div>
     </div>
@@ -93,36 +124,41 @@ const Aralin2Content = () => (
 const Aralin3Content = () => (
   <div className="content-grid">
     <div className="text-section highlight">
-      <h2>Aralin 3: Di-Verbal na Komunikasyon</h2>
+      <h2>Aralin 3: Ang Wika</h2>
       <div className="text-content">
-        <p>Ang di-verbal na komunikasyon ay ang pagpapahayag ng mensahe nang walang paggamit ng mga salita. Ito ay kasing halaga ng verbal na komunikasyon sa pagpaparating ng ating mga nais ipahayag.</p>
 
-        <h3>Kilos ng Katawan (Body Language)</h3>
-        <p>Ang kilos ng katawan ay makapangyarihang paraan ng pagpapahayag ng ating saloobin at damdamin:</p>
-        <ul>
-          <li><strong>Galaw ng Kamay</strong> - Pagpapakita ng direksyon, pagbibigay-diin, o pagpapahayag ng emosyon</li>
-          <li><strong>Postura</strong> - Nagpapakita ng kumpiyansa, interes, o kawalan ng interes</li>
-          <li><strong>Kilos ng Ulo</strong> - Pagtango para sa pagsang-ayon o pag-iling para sa pagtanggi</li>
-        </ul>
-
-        <blockquote>
-          "Ang katawan ay nagsasalita ng sarili nitong wika, at madalas ito ay mas matapat kaysa sa mga salitang binibitawan."
-        </blockquote>
-
-        <h3>Ekspresyon ng Mukha</h3>
-        <p>Ang mukha ay isa sa pinakamahalagang instrumento ng di-verbal na komunikasyon:</p>
-        <ul>
-          <li><strong>Ngiti</strong> - Pagpapakita ng kasiyahan, pagtanggap, o pagbati</li>
-          <li><strong>Kunot-noo</strong> - Pagpapahayag ng pagkalito o pagkabalisa</li>
-          <li><strong>Pagtaas ng Kilay</strong> - Pagtatanong, pagkagulat, o pagdududa</li>
-        </ul>
-
-        <h3>Iba Pang Uri ng Di-Verbal na Komunikasyon</h3>
-        <ol>
-          <li>Distansya at Espasyo (Proxemics)</li>
-          <li>Tono ng Boses (Paralanguage)</li>
-          <li>Pananamit at Itsura</li>
-          <li>Paggamit ng Oras (Chronemics)</li>
+      <ol>
+          <li><b>Antas ng Wika:</b>
+            <ol>
+              <li><i>Pormal</i> - ito'y antas ng wika na istandard at kinikilala/ ginagamit ng nakakarami.</li>
+                <ul>
+                  <li>Pambansa</li>
+                  <li>Pampanitikan 2</li>
+                </ul>
+              <li><i>Impormal</i> - antas ng wika na karaniwan, palasak, pang-araw-araw, madalas gamitin sa pakikipag-usap at pakikipagtalastasan.</li>
+                <ul>
+                    <li>Lalawigan</li>
+                    <li>Kolokyal</li>
+                    <li>Balbal</li>
+                    <li>Salitang Pang-LinguaFranca</li>
+                </ul>
+            </ol>
+          </li>
+          <li><b> Paraan ng Pagpapahayag</b>
+            <ol>
+              <li><i>Paglalahad</i> - ay isang uri ng pagpapahayag na ang hangarin nito ay magpaliwanag. Sinasagot ito ng katanungang "bakit".</li>
+              <li><i>Paglalarawan</i> - ay isang uri ng pagpapahayag na ang layunin ay maipamalas sa kausap o mambabasa ang katangian, kulay, hugis, anyo at sukat ng isang bagay na nagsasaad ng kaibahan sa mga kauri nito.</li>
+                <ol type="i">
+                  <li>Karaniwang paglalarawan </li>
+                  <li>Masining na paglalarawan </li>
+                </ol>
+              <li><i>Pagsasalaysay</i> - ay isang uri ng pagpapahayag na ang hangarin ay mag-ulat ng mga pangyayari sa isang maayos na pagkakahanay. Ito ay tinutugunan ang mga tanong na sino, saan, kailan, at ano.</li>
+              <li><i>Pangangatwiran</i> - ay isang uri ng pagpapahayag na ang hangarin ay makaakit sa mga sarili at magbigay dahilan sa mga bagay. Ito ay isang paraan ng pagdepensa sa sarili.</li>
+              <ol type="i">
+                  <li>Pangangatwirang Pabuo (inductive reasoning)</li>
+                </ol>
+            </ol>
+          </li>
         </ol>
       </div>
     </div>
@@ -132,36 +168,16 @@ const Aralin3Content = () => (
 const Aralin4Content = () => (
   <div className="content-grid">
     <div className="text-section highlight">
-      <h2>Aralin 4: Kultural na Komunikasyon</h2>
+      <h2>Aralin 4: Ang Masining na Pagbabasa, Pakikinig at Pag-unawa</h2>
       <div className="text-content">
-        <p>Ang kultural na komunikasyon ay ang paraan ng pakikipag-ugnayan na nakabatay sa mga kaugalian, tradisyon, at pagpapahalaga ng isang lipunan. Sa Pilipinas, ito ay may malalim na ugat sa ating kasaysayan at kultura.</p>
+        <p>Ang <i><b>masining na pagbasa, pakikinig, at pag-unawa</b></i> ay mahahalagang kasanayan sa sining ng pakikipagtalastasan. Ang mga ito ay tumutulong hindi lamang sa pagkakaroon ng mas epektibong komunikasyon, kundi sa pagpapalalim din ng pag-intindi at pagpapahayag ng damdamin at ideya. Sa bawat kasanayan, mayroong mga teknik na makakatulong upang mapabuti ang ating abilidad sa pag-unawa at pakikipag-ugnayan sa iba.</p>
 
-        <h3>Tradisyonal na Pagbati at Paggalang</h3>
-        <p>Ang mga Pilipino ay kilala sa kanilang magalang na pakikitungo:</p>
-        <ul>
-          <li><strong>Pagmamano</strong> - Pagpapakita ng paggalang sa nakatatanda</li>
-          <li><strong>Paggamit ng Po at Opo</strong> - Berbal na pagpapakita ng respeto</li>
-          <li><strong>Beso-beso</strong> - Tradisyonal na pagbati sa mga kaibigan at kamag-anak</li>
-        </ul>
-
-        <blockquote>
-          "Ang kulturang Pilipino ay nakaugat sa pagpapahalaga sa kapwa at pagrespeto sa nakatatanda."
-        </blockquote>
-
-        <h3>Kultural na Pagpapahalaga</h3>
-        <p>Ang ating kultura ay mayaman sa mga pagpapahalagang nagbibigay-hugis sa ating pakikipag-ugnayan:</p>
-        <ul>
-          <li><strong>Paggalang sa Nakatatanda</strong> - Pagkilala sa karunungan at karanasan</li>
-          <li><strong>Bayanihan</strong> - Diwa ng pagtulong at pagtutulungan</li>
-          <li><strong>Pakikisama</strong> - Kakayahang makibagay at makisama sa kapwa</li>
-        </ul>
-
-        <h3>Impluwensya ng Kultura sa Komunikasyon</h3>
-        <ol>
-          <li>Pagbuo ng mga salitang may kulturang kahulugan</li>
-          <li>Paraan ng pagpapahayag ng damdamin</li>
-          <li>Pamamaraan ng paglutas ng hindi pagkakaunawaan</li>
-          <li>Sistema ng pagpapahalaga sa relasyon</li>
+        <ol type="1">
+          <li><i>Pagbigkas</i> - ay ang sining ng pagpapahayag sa pamamagitan ng mahusay at damdaming pagbigkas ng mga salita. Ginagamit dito ang tamang boses, tono, damdamin, at kilos upang epektibong maiparating ang mensahe. Ang masining na pagbigkas ay maaaring gamitin sa mga tula, kwento, at iba pang anyo ng panitikan.</li>
+          <li><i>Ponolohiya</i> - ay pag-aaral ng mga tunog o ponema, naginagamit sa pagbuo ng mga salita ng isang partikular na wika attunog na ginagamit sa pagsasalita.</li>
+          <li><i>Tula</i> - ay isang anyo ng panitikang nagpapahayag ng damdamin at kaisipan sa masining na anyo. Ang tula ay nagtataglay ng sukat, tugma, at talinghaga na nagbibigay-lalim at kabuluhan sa nilalaman nito. Ang mga tula ay maaaring tungkol sa pag-ibig, kalikasan, bayan, o anumang aspeto ng buhay.</li>
+          <li><i>Balagtasan</i> - ay isang uri ng debate o pagtatalo sa anyong patula na nagmula sa Pilipinas. Sa balagtasan, dalawang magkatunggaling panig ang nagtatagisan ng kanilang mga argumento sa isang paksang napapanahon o mahalaga sa lipunan. Ang pangalan nito ay hango kay Francisco Balagtas, ang kilalang makata at may-akda ng "Florante at Laura."</li>
+          <li><i>Talumpati</i> - ay isang pormal na pagpapahayag ng ideya o saloobin sa isang isyu. Layunin nito ang magbigay-impormasyon, manghikayat, o magbigay-inspirasyon sa mga tagapakinig. Ang talumpati ay maaaring basahin, i-memorize, o bigkasin nang malaya, at ginagamit sa mga pormal na okasyon, pagpupulong, at mga kaganapang pampubliko.</li>
         </ol>
       </div>
     </div>
@@ -171,37 +187,27 @@ const Aralin4Content = () => (
 const Aralin5Content = () => (
   <div className="content-grid">
     <div className="text-section highlight">
-      <h2>Aralin 5: Makabagong Komunikasyon</h2>
+      <h2>Aralin 5: Ang Masining na Pagsasalita</h2>
       <div className="text-content">
-        <p>Ang makabagong komunikasyon ay tumutukoy sa mga bagong paraan ng pakikipag-ugnayan na dulot ng teknolohiya. Sa digital na panahon, nagbago at lumawak ang ating mga paraan ng pakikipagtalastasan.</p>
-
-        <h3>Digital na Komunikasyon</h3>
-        <p>Ang teknolohiya ay nagdala ng mga bagong platform para sa komunikasyon:</p>
-        <ul>
-          <li><strong>Social Media</strong> - Platform para sa pagbabahagi at pakikipag-ugnayan</li>
-          <li><strong>Email</strong> - Pormal na digital na komunikasyon</li>
-          <li><strong>Video Conferencing</strong> - Virtual na pakikipag-usap at pagpupulong</li>
-          <li><strong>Instant Messaging</strong> - Mabilis na pagpapalitan ng mensahe</li>
-        </ul>
-
-        <blockquote>
-          "Ang teknolohiya ay nagbigay ng bagong dimensyon sa paraan ng ating pakikipag-ugnayan."
-        </blockquote>
-
-        <h3>Mga Hamon sa Digital na Komunikasyon</h3>
-        <p>Kasama sa pag-unlad ng teknolohiya ang mga bagong hamon:</p>
-        <ul>
-          <li><strong>Digital Etiquette</strong> - Tamang asal sa online na pakikipag-ugnayan</li>
-          <li><strong>Privacy at Security</strong> - Proteksyon ng personal na impormasyon</li>
-          <li><strong>Information Overload</strong> - Labis na dami ng impormasyon</li>
-        </ul>
-
-        <h3>Epekto sa Lipunan</h3>
+        <p>Ang <i><b>masining na pagsasalita</b></i> ay isang mahalagang kasanayan na hindi lamang nakatutok sa pagpapahayag ng mga ideya kundi sa pagbuo ng makulay at epektibong komunikasyon. Sa pamamagitan ng tamang pagbigkas, ekspresyon, at organisasyon ng mga ideya, ang masining na pagsasalita ay nakakatulong sa pagpapahayag ng mensahe nang malinaw at kaakit-akit. Ang pagiging mahusay sa masining na pagsasalita ay hindi lamang nakabatay sa kasamaang wika kundi sa pag-unawa sa tagapakinig, kaya't mahalaga ang patuloy na pagsasanay at pagpapabuti sa larangang ito.</p>
+        
         <ol>
-          <li>Pagbabago ng tradisyonal na paraan ng komunikasyon</li>
-          <li>Mas mabilis na pagkalat ng impormasyon</li>
-          <li>Pagbuo ng virtual na komunidad</li>
-          <li>Hamon sa personal na pakikipag-ugnayan</li>
+          <li><b>Mga Sangkap ng Masining na Pagsasalita:</b>
+            <ol>
+              <li>Kagandahan</li>
+              <li>Kawastuhan</li>
+            </ol>
+            <p>Dahil dito and retorika at balarila ay hindi na maaring paghiwalayin.</p>
+            <p><b>Retorika</b> – ang sumasaklaw sa kagandahan</p>
+            <p><b>Balarila</b> – ang sumasaklaw sa kawastuhan</p>
+          </li>
+          <li><b>Mga Masining na Pagsasalita sa Iba’t Ibang Pagkakataon:</b>
+            <ol>
+              <li>Ang pakikipag-usap sa dalawahan</li>
+              <li>Ang pakikipanayam o interbyu (pangkaalaman at panghanapbuhay)</li>
+              <li>Ang pakikipag-usap sa telepono</li>
+            </ol>
+          </li>
         </ol>
       </div>
     </div>
@@ -229,61 +235,7 @@ function Sining() {
             <div className="text-section highlight">
               <h2>Introduksyon sa Sining ng Pakikipagtalastasan</h2>
               <div className="text-content">
-                <p>Ang Sining ng Pakikipagtalastasan ay ang masining at epektibong paraan ng pagpapahayag ng damdamin, ideya, kaalaman, at mensahe sa pamamagitan ng salita, kilos, o iba pang anyo ng komunikasyon. Sa wikang Filipino, ito ay isang mahalagang aspeto ng kultura at edukasyon dahil tumutulong ito sa pagbuo ng koneksyon, pag-unawa, at pakikisalamuha sa iba.</p>
-
-                <blockquote>
-                  "Ang tunay na sining ng pakikipagtalastasan ay hindi lamang nasa kung ano ang sinasabi, kundi nasa kung paano ito sinasabi at kung paano ito nauunawaan ng iba."
-                </blockquote>
-
-                <h3>Ang Kalikasan ng Pakikipagtalastasan</h3>
-                <p>Ang pakikipagtalastasan ay isang komplikadong proseso na may iba't ibang dimensyon:</p>
-                <ul>
-                  <li><strong>Pagpapahayag ng Sarili</strong> - Ang kakayahang ipahayag nang malinaw ang ating mga ideya, damdamin, at pananaw</li>
-                  <li><strong>Pakikinig at Pag-unawa</strong> - Ang kakayahang maintindihan at bigyang-halaga ang mensahe ng iba</li>
-                  <li><strong>Kulturang Konteksto</strong> - Ang pagsasaalang-alang sa mga kaugalian at pagpapahalaga ng lipunan</li>
-                  <li><strong>Dinamikong Proseso</strong> - Ang patuloy na pag-aangkop sa iba't ibang sitwasyon at pangangailangan</li>
-                </ul>
-
-                <h3>Mga Pangunahing Elemento</h3>
-                <p>Ang epektibong pakikipagtalastasan ay binubuo ng mga sumusunod na elemento:</p>
-                <ol>
-                  <li><strong>Malinaw na Mensahe</strong> - Ang nilalaman ng komunikasyon ay dapat malinaw at angkop sa tagapakinig</li>
-                  <li><strong>Angkop na Paraan</strong> - Ang pagpili ng tamang pamamaraan ng pagpapahayag</li>
-                  <li><strong>Wastong Konteksto</strong> - Ang pagsasaalang-alang sa sitwasyon at kapaligiran</li>
-                  <li><strong>Aktibong Pakikinig</strong> - Ang tunay na pag-unawa sa mensahe ng kausap</li>
-                </ol>
-
-                <h3>Kahalagahan sa Lipunang Filipino</h3>
-                <p>Sa ating lipunan, ang sining ng pakikipagtalastasan ay may mga sumusunod na papel:</p>
-                <ul>
-                  <li><strong>Pagpapanatili ng Kultura</strong> - Nagsisilbing tulay sa pagpapasa ng ating mga kaugalian at pagpapahalaga sa susunod na henerasyon</li>
-                  <li><strong>Pagpapaunlad ng Lipunan</strong> - Nakatutulong sa maayos na ugnayan at kolaborasyon sa pagitan ng mga mamamayan</li>
-                  <li><strong>Pagpapayaman ng Wika</strong> - Nagbibigay-daan sa patuloy na pag-unlad at pagyaman ng wikang Filipino</li>
-                  <li><strong>Pagbuo ng Pagkakaisa</strong> - Nagtataguyod ng mas malalim na pag-unawaan at pagkakaisa sa mga Filipino</li>
-                </ul>
-
-                <h3>Mga Hamon sa Makabagong Panahon</h3>
-                <p>Sa kasalukuyang digital na era, ang sining ng pakikipagtalastasan ay nahaharap sa mga bagong hamon:</p>
-                <ul>
-                  <li><strong>Digital na Komunikasyon</strong> - Ang pag-angkop sa mga bagong teknolohiya at platform</li>
-                  <li><strong>Cross-Cultural Communication</strong> - Ang pakikipag-ugnayan sa iba't ibang kultura at komunidad</li>
-                  <li><strong>Information Overload</strong> - Ang paghahanda sa dami ng impormasyon sa digital na panahon</li>
-                  <li><strong>Authenticity</strong> - Ang pagpapanatili ng tunay at makabuluhang komunikasyon</li>
-                </ul>
-
-                <blockquote>
-                  "Sa mundo ng mabilis na pagbabago, ang kakayahang makipag-ugnayan nang epektibo ay nananatiling mahalagang kasanayan para sa tagumpay at pag-unlad."
-                </blockquote>
-
-                <h3>Mga Aralin sa Kursong Ito</h3>
-                <p>Upang mas maunawaan ang sining ng pakikipagtalastasan, ang kursong ito ay nahahati sa limang mahahalagang aralin:</p>
-                <ol>
-                  <li><strong>Aralin 1: Introduksyon sa Komunikasyon</strong> - Pag-aaral ng mga pangunahing konsepto at elemento ng komunikasyon</li>
-                  <li><strong>Aralin 2: Verbal na Komunikasyon</strong> - Pagsusuri sa iba't ibang anyo ng pasalita at pasulat na komunikasyon</li>
-                  <li><strong>Aralin 3: Di-Verbal na Komunikasyon</strong> - Pag-unawa sa kahalagahan ng body language at iba pang di-verbal na paraan</li>
-                  <li><strong>Aralin 4: Kultural na Komunikasyon</strong> - Pagtuklas sa papel ng kultura sa ating pakikipag-ugnayan</li>
-                  <li><strong>Aralin 5: Makabagong Komunikasyon</strong> - Pag-aaral ng mga bagong paraan ng komunikasyon sa digital na panahon</li>
-                </ol>
+                <p>Ang <i><b>Sining ng Pakikipagtalastasan</b></i> ay ang masining at epektibong paraan ng pagpapahayag ng damdamin, ideya, kaalaman, at mensahe sa pamamagitan ng salita, kilos, o iba pang anyo ng komunikasyon. Sa wikang Filipino, ito ay isang mahalagang aspeto ng kultura at edukasyon dahil tumutulong ito sa pagbuo ng koneksyon, pag-unawa, at pakikisalamuha sa iba.</p>
               </div>
             </div>
           </div>
