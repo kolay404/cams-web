@@ -5,16 +5,12 @@ import './LandingPage.css';
 const LandingPage = () => {
   const navigate = useNavigate();
 
-  const handleNavigation = (path) => {
-    navigate(path);
-  };
-
   const handleSiningClick = () => {
     navigate('/sining');
   };
 
-  const handleAkademikoClick = () => {
-    navigate('/akademiko');
+  const handlePagbasaClick = () => {
+    navigate('/pagbasa');
   };
 
   return (
@@ -48,61 +44,7 @@ const LandingPage = () => {
               <div className="page-wrapper">
                 <button 
                   className="page page1"
-                  onClick={handleAkademikoClick}
-                >
-                  <div className="page-line left"></div>
-                  <div className="page-content">
-                    <h3>KOMUNIKASYON SA AKADEMIKONG FILIPINO</h3>
-                    <p className="page-description">
-                      Pag-aaral ng pormal na paggamit ng Filipino sa akademikong konteksto, kasama ang:
-                    </p>
-                  </div>
-                  <div className="page-line right"></div>
-                  <div className="page-fold"></div>
-                </button>
-                <div className="info-bubble enhanced">
-                  <p>Komprehensibong pag-aaral ng akademikong pagsulat at komunikasyon</p>
-                  <ul>
-                    <li>Akademikong Pagsulat at Pananaliksik</li>
-                    <li>Pormal na Presentasyon</li>
-                    <li>Propesyonal na Komunikasyon</li>
-                    <li>Kritikal na Pagsusuri</li>
-                    <li>Akademikong Diskurso</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="page-wrapper">
-                <button 
-                  className="page page2"
-                  onClick={handleSiningClick}
-                >
-                  <div className="page-line left"></div>
-                  <div className="page-content">
-                    <h3>SINING NG PAKIKIPAGTALASTASAN</h3>
-                    <p className="page-description">
-                      Pag-aaral ng masining at epektibong paraan ng komunikasyon, kabilang ang:
-                    </p>
-                  </div>
-                  <div className="page-line right"></div>
-                  <div className="page-fold"></div>
-                </button>
-                <div className="info-bubble enhanced">
-                  <p>Masusing pag-aaral ng iba't ibang anyo ng komunikasyon</p>
-                  <ul>
-                    <li>Verbal at Di-verbal na Komunikasyon</li>
-                    <li>Kultural na Aspeto ng Pakikipag-usap</li>
-                    <li>Tradisyonal at Makabagong Media</li>
-                    <li>Epektibong Pakikipag-ugnayan</li>
-                    <li>Digital na Komunikasyon</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="page-wrapper">
-                <button 
-                  className="page page3"
-                  onClick={() => handleNavigation('/pagbasa')}
+                  onClick={handlePagbasaClick}
                 >
                   <div className="page-line left"></div>
                   <div className="page-content">
@@ -128,8 +70,34 @@ const LandingPage = () => {
 
               <div className="page-wrapper">
                 <button 
-                  className="page page4"
-                  onClick={() => handleNavigation('/konteksto')}
+                  className="page page2"
+                  onClick={handleSiningClick}
+                >
+                  <div className="page-line left"></div>
+                  <div className="page-content">
+                    <h3>SINING NG PAKIKIPAGTALASTASAN</h3>
+                    <p className="page-description">
+                      Pag-aaral ng masining at epektibong paraan ng komunikasyon
+                    </p>
+                  </div>
+                  <div className="page-line right"></div>
+                  <div className="page-fold"></div>
+                </button>
+                <div className="info-bubble enhanced">
+                  <p>Masusing pag-aaral ng iba't ibang anyo ng komunikasyon</p>
+                  <ul>
+                    <li>Verbal at Di-verbal na Komunikasyon</li>
+                    <li>Kultural na Aspeto ng Pakikipag-usap</li>
+                    <li>Tradisyonal at Makabagong Media</li>
+                    <li>Epektibong Pakikipag-ugnayan</li>
+                    <li>Digital na Komunikasyon</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="page-wrapper">
+                <button 
+                  className="page page3"
                 >
                   <div className="page-line left"></div>
                   <div className="page-content">
@@ -152,6 +120,33 @@ const LandingPage = () => {
                   </ul>
                 </div>
               </div>
+
+              <div className="page-wrapper">
+                <button 
+                  className="page page4"
+                >
+                  <div className="page-line left"></div>
+                  <div className="page-content">
+                    <h3>FILIPINO SA PANANALIKSIK</h3>
+                    <p className="page-description">
+                      Paggamit ng Filipino sa larangan ng pananaliksik at akademya
+                    </p>
+                  </div>
+                  <div className="page-line right"></div>
+                  <div className="page-fold"></div>
+                </button>
+                <div className="info-bubble enhanced">
+                  <p>Sistematikong pag-aaral ng Filipino sa pananaliksik</p>
+                  <ul>
+                    <li>Metodolohiya ng Pananaliksik</li>
+                    <li>Akademikong Pagsulat</li>
+                    <li>Pagbuo ng Research Paper</li>
+                    <li>Data Analysis sa Filipino</li>
+                    <li>Research Ethics at Documentation</li>
+                  </ul>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
