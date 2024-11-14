@@ -6,29 +6,21 @@ import Header from '../components/Header';
 const Module1Content = () => (
   <div className="content-grid">
     <div className="text-section highlight">
-      <h2>Modyul 1: Introduksyon sa Akademikong Filipino</h2>
+      <h2>Modyul 1: Introduksyon sa Pagbasa at Pagsulat sa Iba't Ibang Disiplina</h2>
       <div className="text-content">
-        <p>Ang akademikong Filipino ay tumutukoy sa pormal na paggamit ng wikang Filipino sa larangan ng edukasyon, pananaliksik, at iba pang intelektwal na gawain. Ito ay mahalagang kasangkapan sa pagpapalaganap ng kaalaman at pag-unawa sa ating sariling wika.</p>
+        <p>Ang pagbasa at pagsulat sa iba't ibang disiplina ay tumutukoy sa espesyalisadong paggamit ng Filipino sa iba't ibang larangan ng pag-aaral. Ito ay nakatuon sa pag-unawa at paglikha ng mga teksto na may kaugnayan sa iba't ibang akademikong larangan.</p>
 
         <blockquote>
-          "Ang akademikong Filipino ay hindi lamang wika, kundi isang instrumento ng pag-unlad ng kaisipan at karunungan."
+          "Ang bawat disiplina ay may sariling wika at paraan ng pagpapahayag na dapat maintindihan at magamit nang wasto."
         </blockquote>
 
-        <h3>Kahalagahan ng Akademikong Filipino</h3>
+        <h3>Kahalagahan ng Interdisciplinary na Pagbasa at Pagsulat</h3>
         <ul>
-          <li><strong>Pagpapaunlad ng Wika</strong> - Nagbibigay-daan sa paglago ng bokabularyo at terminolohiya</li>
-          <li><strong>Pananaliksik</strong> - Nakatutulong sa pagbuo ng mga pag-aaral sa Filipino</li>
-          <li><strong>Edukasyon</strong> - Ginagamit sa pagtuturo at pagkatuto</li>
-          <li><strong>Intelektwal na Diskurso</strong> - Nagsisilbing daan sa mataas na antas ng talakayan</li>
+          <li><strong>Espesyalisadong Kaalaman</strong> - Pag-unawa sa mga terminong teknikal sa bawat larangan</li>
+          <li><strong>Propesyonal na Pagsulat</strong> - Kakayahang magsulat sa konteksto ng iba't ibang propesyon</li>
+          <li><strong>Akademikong Integrasyon</strong> - Pagsasama ng Filipino sa iba't ibang larangan ng pag-aaral</li>
+          <li><strong>Praktikal na Aplikasyon</strong> - Paggamit ng wika sa totoong sitwasyon ng trabaho</li>
         </ul>
-
-        <h3>Mga Katangian ng Akademikong Pagsulat</h3>
-        <ol>
-          <li>Malinaw at direktang pagpapahayag</li>
-          <li>Paggamit ng pormal na wika</li>
-          <li>Lohikal na pagkakasunod-sunod ng mga ideya</li>
-          <li>Wastong dokumentasyon at pagsipi</li>
-        </ol>
       </div>
     </div>
   </div>
@@ -37,28 +29,27 @@ const Module1Content = () => (
 const Module2Content = () => (
   <div className="content-grid">
     <div className="text-section highlight">
-      <h2>Modyul 2: Mga Uri ng Akademikong Sulatin</h2>
+      <h2>Modyul 2: Pagbasa at Pagsulat sa Agham</h2>
       <div className="text-content">
-        <p>Ang akademikong sulatin ay may iba't ibang uri at layunin. Bawat uri ay may sariling istraktura at pamantayan na dapat sundin.</p>
+        <p>Ang larangan ng agham ay may natatanging pangangailangan sa pagbasa at pagsulat. Kabilang dito ang paggamit ng teknikal na terminolohiya at malinaw na pagpapaliwanag ng mga proseso at resulta.</p>
 
-        <h3>Pananaliksik</h3>
+        <h3>Mga Uri ng Tekstong Pang-agham</h3>
         <ul>
-          <li><strong>Tesis</strong> - Komprehensibong pag-aaral sa partikular na paksa</li>
-          <li><strong>Disertasyon</strong> - Mas malalim na pananaliksik para sa doktorado</li>
-          <li><strong>Research Paper</strong> - Mas maikling pananaliksik tungkol sa isang paksa</li>
+          <li><strong>Laboratory Report</strong> - Dokumentasyon ng mga eksperimento</li>
+          <li><strong>Scientific Paper</strong> - Pormal na ulat ng pananaliksik</li>
+          <li><strong>Technical Documentation</strong> - Paglalarawan ng mga proseso at pamamaraan</li>
         </ul>
 
         <blockquote>
-          "Ang mabuting akademikong sulatin ay nagbibigay-liwanag sa madilim na aspeto ng kaalaman."
+          "Sa agham, ang kawastuan at kalinawan ng pagsulat ay mahalaga para sa wastong pag-unawa ng mga konsepto."
         </blockquote>
 
-        <h3>Mga Elemento ng Akademikong Papel</h3>
+        <h3>Mga Pamantayan sa Pagsulat ng Agham</h3>
         <ol>
-          <li>Panimula (Introduction)</li>
-          <li>Paglalahad ng Suliranin (Problem Statement)</li>
-          <li>Metodolohiya (Methodology)</li>
-          <li>Resulta at Diskusyon (Results and Discussion)</li>
-          <li>Konklusyon (Conclusion)</li>
+          <li>Paggamit ng tamang terminolohiya</li>
+          <li>Obhetibong paglalahad</li>
+          <li>Malinaw na pagpapaliwanag ng metodolohiya</li>
+          <li>Tumpak na presentasyon ng datos</li>
         </ol>
       </div>
     </div>
@@ -68,27 +59,27 @@ const Module2Content = () => (
 const Module3Content = () => (
   <div className="content-grid">
     <div className="text-section highlight">
-      <h2>Modyul 3: Akademikong Presentasyon</h2>
+      <h2>Modyul 3: Pagbasa at Pagsulat sa Teknolohiya</h2>
       <div className="text-content">
-        <p>Ang akademikong presentasyon ay isang mahalagang kasanayan sa larangan ng edukasyon at pananaliksik. Ito ay nangangailangan ng maingat na paghahanda at mahusay na paghahatid.</p>
+        <p>Sa larangan ng teknolohiya, ang pagbasa at pagsulat ay nakatuon sa paglalarawan ng mga makabagong sistema, proseso, at kagamitan.</p>
 
-        <h3>Mga Uri ng Presentasyon</h3>
+        <h3>Mga Uri ng Teknikal na Dokumentasyon</h3>
         <ul>
-          <li><strong>Oral Defense</strong> - Pagtatanggol ng pananaliksik</li>
-          <li><strong>Seminar</strong> - Pagbabahagi ng kaalaman sa grupo</li>
-          <li><strong>Conference</strong> - Presentasyon sa akademikong pagtitipon</li>
+          <li><strong>User Manual</strong> - Gabay sa paggamit ng produkto o sistema</li>
+          <li><strong>Technical Specifications</strong> - Detalyadong paglalarawan ng mga katangian</li>
+          <li><strong>Process Documentation</strong> - Dokumentasyon ng mga hakbang at pamamaraan</li>
         </ul>
 
         <blockquote>
-          "Ang epektibong presentasyon ay kombinasyon ng mahusay na paghahanda at tiwala sa sarili."
+          "Ang mahusay na teknikal na pagsulat ay nagbibigay-daan sa mas madaling pag-unawa ng komplikadong teknolohiya."
         </blockquote>
 
-        <h3>Mga Elemento ng Mahusay na Presentasyon</h3>
+        <h3>Mga Elemento ng Teknikal na Pagsulat</h3>
         <ol>
-          <li>Malinaw na paghahatid ng mensahe</li>
-          <li>Angkop na visual aids</li>
-          <li>Epektibong paggamit ng oras</li>
-          <li>Kakayahang sagutin ang mga tanong</li>
+          <li>Malinaw na istraktura</li>
+          <li>Step-by-step na paglalarawan</li>
+          <li>Visual aids at diagrama</li>
+          <li>Konsistenteng terminolohiya</li>
         </ol>
       </div>
     </div>
@@ -98,27 +89,27 @@ const Module3Content = () => (
 const Module4Content = () => (
   <div className="content-grid">
     <div className="text-section highlight">
-      <h2>Modyul 4: Akademikong Pakikipag-ugnayan</h2>
+      <h2>Modyul 4: Pagbasa at Pagsulat sa Negosyo</h2>
       <div className="text-content">
-        <p>Ang akademikong pakikipag-ugnayan ay tumutukoy sa pormal na paraan ng pakikipag-komunikasyon sa loob ng akademikong komunidad.</p>
+        <p>Ang larangan ng negosyo ay nangangailangan ng partikular na kasanayan sa pagbasa at pagsulat ng mga dokumentong pangnegosyo.</p>
 
-        <h3>Mga Uri ng Akademikong Komunikasyon</h3>
+        <h3>Mga Uri ng Business Writing</h3>
         <ul>
-          <li><strong>Email</strong> - Pormal na komunikasyon sa digital na paraan</li>
-          <li><strong>Sulat</strong> - Tradisyonal na pormal na komunikasyon</li>
-          <li><strong>Memorandum</strong> - Opisyal na pahayag o anunsyo</li>
+          <li><strong>Business Proposal</strong> - Panukala para sa negosyo</li>
+          <li><strong>Marketing Materials</strong> - Mga materyales pang-marketing</li>
+          <li><strong>Corporate Communications</strong> - Komunikasyong pangkorporasyon</li>
         </ul>
 
         <blockquote>
-          "Sa akademikong mundo, ang propesyonalismo sa komunikasyon ay susi sa tagumpay."
+          "Sa negosyo, ang propesyonal na pagsulat ay nagpapakita ng kredibilidad at kahusayan."
         </blockquote>
 
-        <h3>Mga Pamantayan sa Pakikipag-ugnayan</h3>
+        <h3>Mga Prinsipyo ng Business Writing</h3>
         <ol>
-          <li>Paggamit ng pormal na wika</li>
-          <li>Malinaw na pagpapahayag</li>
+          <li>Direkta at malinaw na komunikasyon</li>
           <li>Propesyonal na tono</li>
-          <li>Wastong format at istraktura</li>
+          <li>Data-driven na presentasyon</li>
+          <li>Target audience consideration</li>
         </ol>
       </div>
     </div>
@@ -128,34 +119,34 @@ const Module4Content = () => (
 const Module5Content = () => (
   <div className="content-grid">
     <div className="text-section highlight">
-      <h2>Modyul 5: Akademikong Pagsusuri</h2>
+      <h2>Modyul 5: Pagbasa at Pagsulat sa Sining at Kultura</h2>
       <div className="text-content">
-        <p>Ang akademikong pagsusuri ay ang sistematikong pag-aaral at ebalwasyon ng mga teksto, datos, o pananaliksik. Ito ay nangangailangan ng kritikal na pag-iisip at maingat na pagsusuri.</p>
+        <p>Ang pagbasa at pagsulat sa larangan ng sining at kultura ay nangangailangan ng mas malikhaing approach at malalim na pag-unawa sa kulturang Pilipino.</p>
 
-        <h3>Mga Uri ng Pagsusuri</h3>
+        <h3>Mga Uri ng Kultural na Teksto</h3>
         <ul>
-          <li><strong>Literature Review</strong> - Pagsusuri ng mga naunang pag-aaral</li>
-          <li><strong>Content Analysis</strong> - Pagsusuri ng nilalaman</li>
-          <li><strong>Critical Analysis</strong> - Malalimang pagsusuri at interpretasyon</li>
+          <li><strong>Art Criticism</strong> - Pagsusuri ng sining</li>
+          <li><strong>Cultural Essays</strong> - Sanaysay tungkol sa kultura</li>
+          <li><strong>Creative Writing</strong> - Malikhaing pagsulat</li>
         </ul>
 
         <blockquote>
-          "Ang mabuting pagsusuri ay nagbubunga ng mas malalim na pag-unawa at bagong kaalaman."
+          "Ang pagsulat tungkol sa kultura ay isang paraan ng pagpapanatili at pagpapayaman ng ating pagkakakilanlan."
         </blockquote>
 
-        <h3>Mga Hakbang sa Pagsusuri</h3>
+        <h3>Mga Elemento ng Kultural na Pagsulat</h3>
         <ol>
-          <li>Pagbabasa at pag-unawa</li>
-          <li>Pagtukoy ng mahahalagang punto</li>
-          <li>Pagsusuri ng mga ebidensya</li>
-          <li>Pagbuo ng konklusyon</li>
+          <li>Kontekstwalisasyon ng kultura</li>
+          <li>Malikhaing pagpapahayag</li>
+          <li>Kulturang sensitibidad</li>
+          <li>Paggamit ng mga kultural na reperensya</li>
         </ol>
       </div>
     </div>
   </div>
 );
 
-function Akademiko() {
+function Pagbasa() {
   const [selectedModule, setSelectedModule] = useState('');
 
   const renderContent = () => {
@@ -174,39 +165,40 @@ function Akademiko() {
         return (
           <div className="content-grid">
             <div className="text-section highlight">
-              <h2>Introduksyon sa Akademikong Filipino</h2>
+              <h2>Introduksyon sa Pagbasa at Pagsulat sa Iba't Ibang Disiplina</h2>
               <div className="text-content">
-                <p>Ang Komunikasyon sa Akademikong Filipino ay isang mahalagang asignatura na naglalayong paunlarin ang kakayahan ng mga mag-aaral sa paggamit ng wikang Filipino sa akademikong konteksto. Ito ay nakatuon sa pagpapahusay ng kasanayan sa pormal na pagsulat, presentasyon, at pakikipag-ugnayan sa larangan ng edukasyon at pananaliksik.</p>
+                <p>Ang kursong ito ay naglalayong paunlarin ang kakayahan ng mga mag-aaral sa pagbasa at pagsulat ng mga tekstong may kaugnayan sa iba't ibang larangan ng pag-aaral. Ito ay nakatuon sa pag-unawa at paglikha ng mga espesyalisadong teksto sa iba't ibang disiplina.</p>
 
                 <blockquote>
-                  "Ang akademikong Filipino ay hindi lamang tungkol sa wika, kundi sa kakayahang magpahayag ng malalim na kaisipan at kaalaman sa ating sariling wika."
+                  "Ang kakayahang magbasa at magsulat sa iba't ibang disiplina ay susi sa matagumpay na pakikilahok sa iba't ibang larangan ng lipunan."
                 </blockquote>
 
                 <h3>Layunin ng Kurso</h3>
                 <ul>
-                  <li><strong>Kasanayan sa Pagsulat</strong> - Pagpapaunlad ng kakayahan sa akademikong pagsulat</li>
-                  <li><strong>Kritikal na Pag-iisip</strong> - Pagpapalalim ng kakayahan sa pagsusuri at pag-unawa</li>
-                  <li><strong>Pormal na Komunikasyon</strong> - Pagpapahusay ng kakayahan sa pormal na pakikipag-ugnayan</li>
-                  <li><strong>Pananaliksik</strong> - Paglinang ng kasanayan sa pananaliksik sa Filipino</li>
+                  <li><strong>Interdisciplinary Understanding</strong> - Pag-unawa sa iba't ibang larangan</li>
+                  <li><strong>Technical Writing Skills</strong> - Pagpapaunlad ng teknikal na pagsulat</li>
+                  <li><strong>Professional Communication</strong> - Kahusayan sa propesyonal na komunikasyon</li>
+                  <li><strong>Critical Reading</strong> - Kritikal na pagbasa at pag-unawa</li>
                 </ul>
 
-                <h3>Kahalagahan ng Akademikong Filipino</h3>
-                <p>Sa kasalukuyang panahon, ang akademikong Filipino ay may mahalagang papel sa:</p>
+                <h3>Mga Pangunahing Larangan</h3>
+                <p>Ang kurso ay sumasaklaw sa mga sumusunod na larangan:</p>
                 <ol>
-                  <li>Pagpapaunlad ng intelektwal na diskurso sa Filipino</li>
-                  <li>Pagpapanatili at pagpapayaman ng wikang pambansa</li>
-                  <li>Pagbuo ng mga pananaliksik at akademikong materyal</li>
-                  <li>Paghubog ng mga iskolar at mananaliksik</li>
+                  <li>Agham at Pananaliksik</li>
+                  <li>Teknolohiya at Engineering</li>
+                  <li>Negosyo at Ekonomiya</li>
+                  <li>Sining at Kultura</li>
+                  <li>Sosyal na Agham</li>
                 </ol>
 
                 <h3>Mga Modyul sa Kursong Ito</h3>
                 <p>Ang kurso ay nahahati sa limang mahahalagang modyul:</p>
                 <ol>
-                  <li><strong>Modyul 1: Introduksyon sa Akademikong Filipino</strong> - Pangunahing konsepto at kahalagahan</li>
-                  <li><strong>Modyul 2: Mga Uri ng Akademikong Sulatin</strong> - Pagsusuri at pagsulat ng iba't ibang akademikong papel</li>
-                  <li><strong>Modyul 3: Akademikong Presentasyon</strong> - Mga kasanayan sa pagprepresenta ng pananaliksik</li>
-                  <li><strong>Modyul 4: Akademikong Pakikipag-ugnayan</strong> - Pormal na komunikasyon sa akademikong konteksto</li>
-                  <li><strong>Modyul 5: Akademikong Pagsusuri</strong> - Kritikal na pagsusuri at ebalwasyon</li>
+                  <li><strong>Modyul 1: Introduksyon sa Interdisciplinary na Pagbasa at Pagsulat</strong></li>
+                  <li><strong>Modyul 2: Pagbasa at Pagsulat sa Agham</strong></li>
+                  <li><strong>Modyul 3: Pagbasa at Pagsulat sa Teknolohiya</strong></li>
+                  <li><strong>Modyul 4: Pagbasa at Pagsulat sa Negosyo</strong></li>
+                  <li><strong>Modyul 5: Pagbasa at Pagsulat sa Sining at Kultura</strong></li>
                 </ol>
               </div>
             </div>
@@ -216,13 +208,13 @@ function Akademiko() {
   };
 
   return (
-    <div className="akademiko-container">
+    <div className="pagbasa-container">
       <Header />
       
       <div className="main-content">
         <div className="title-section">
-          <h1>KOMUNIKASYON SA AKADEMIKONG FILIPINO</h1>
-          <p className="subtitle">Mga Kasanayan sa Akademikong Pagsulat at Presentasyon</p>
+          <h1>PAGBASA AT PAGSULAT SA IBA'T IBANG DISIPLINA</h1>
+          <p className="subtitle">Integrasyon ng Filipino sa Iba't Ibang Larangan ng Pag-aaral</p>
           
           <div className="module-selector">
             <select 
@@ -231,11 +223,11 @@ function Akademiko() {
               onChange={(e) => setSelectedModule(e.target.value)}
             >
               <option value="">Pumili ng Modyul</option>
-              <option value="1">Modyul 1: Introduksyon sa Akademikong Filipino</option>
-              <option value="2">Modyul 2: Mga Uri ng Akademikong Sulatin</option>
-              <option value="3">Modyul 3: Akademikong Presentasyon</option>
-              <option value="4">Modyul 4: Akademikong Pakikipag-ugnayan</option>
-              <option value="5">Modyul 5: Akademikong Pagsusuri</option>
+              <option value="1">Modyul 1: Introduksyon sa Interdisciplinary na Pagbasa at Pagsulat</option>
+              <option value="2">Modyul 2: Pagbasa at Pagsulat sa Agham</option>
+              <option value="3">Modyul 3: Pagbasa at Pagsulat sa Teknolohiya</option>
+              <option value="4">Modyul 4: Pagbasa at Pagsulat sa Negosyo</option>
+              <option value="5">Modyul 5: Pagbasa at Pagsulat sa Sining at Kultura</option>
             </select>
           </div>
         </div>
@@ -246,4 +238,4 @@ function Akademiko() {
   );
 }
 
-export default Akademiko; 
+export default Pagbasa; 
