@@ -9,10 +9,31 @@ const LandingPage = () => {
     navigate(path);
   };
 
+  const handleSiningClick = () => {
+    navigate('/sining');
+  };
+
+  const handleAkademikoClick = () => {
+    navigate('/akademiko');
+  };
+
   return (
     <div className="landing-container">
       <div className="left-section">
-        <img src="/citu logo.png" alt="CITU Logo" className="logo-image" />
+        <div className="left-content">
+          <img src="/citu logo.png" alt="CITU Logo" className="logo-image" />
+          <div className="course-title-container">
+            <h1 className="main-title">FILIPINO SA PILING LARANGAN</h1>
+            <div className="title-underline"></div>
+            <p className="course-subtitle">Pangkalahatang Pag-aaral ng Filipino sa Iba't Ibang Larangan</p>
+          </div>
+          <div className="course-description">
+            <div className="description-card">
+              <h3>Tungkol sa Kurso</h3>
+              <p>Isang komprehensibong programa na naglalayong paunlarin ang kakayahan sa paggamit ng Filipino sa iba't ibang aspeto ng komunikasyon at akademikong diskurso.</p>
+            </div>
+          </div>
+        </div>
       </div>
       
       <div className="right-section">
@@ -27,21 +48,26 @@ const LandingPage = () => {
               <div className="page-wrapper">
                 <button 
                   className="page page1"
-                  onClick={() => handleNavigation('/komunikasyon')}
+                  onClick={handleAkademikoClick}
                 >
                   <div className="page-line left"></div>
                   <div className="page-content">
                     <h3>KOMUNIKASYON SA AKADEMIKONG FILIPINO</h3>
+                    <p className="page-description">
+                      Pag-aaral ng pormal na paggamit ng Filipino sa akademikong konteksto, kasama ang:
+                    </p>
                   </div>
                   <div className="page-line right"></div>
                   <div className="page-fold"></div>
                 </button>
-                <div className="info-bubble">
-                  <p>Pag-aaral ng mga pangunahing konsepto at kasanayan sa akademikong Filipino</p>
+                <div className="info-bubble enhanced">
+                  <p>Komprehensibong pag-aaral ng akademikong pagsulat at komunikasyon</p>
                   <ul>
-                    <li>Akademikong Pagsulat</li>
-                    <li>Pananaliksik</li>
-                    <li>Presentasyon</li>
+                    <li>Akademikong Pagsulat at Pananaliksik</li>
+                    <li>Pormal na Presentasyon</li>
+                    <li>Propesyonal na Komunikasyon</li>
+                    <li>Kritikal na Pagsusuri</li>
+                    <li>Akademikong Diskurso</li>
                   </ul>
                 </div>
               </div>
@@ -49,21 +75,26 @@ const LandingPage = () => {
               <div className="page-wrapper">
                 <button 
                   className="page page2"
-                  onClick={() => handleNavigation('/Sining')}
+                  onClick={handleSiningClick}
                 >
                   <div className="page-line left"></div>
                   <div className="page-content">
                     <h3>SINING NG PAKIKIPAGTALASTASAN</h3>
+                    <p className="page-description">
+                      Pag-aaral ng masining at epektibong paraan ng komunikasyon, kabilang ang:
+                    </p>
                   </div>
                   <div className="page-line right"></div>
                   <div className="page-fold"></div>
                 </button>
-                <div className="info-bubble">
-                  <p>Pag-aaral ng iba't ibang anyo ng komunikasyon</p>
+                <div className="info-bubble enhanced">
+                  <p>Masusing pag-aaral ng iba't ibang anyo ng komunikasyon</p>
                   <ul>
-                    <li>Verbal at Di-verbal</li>
-                    <li>Kulturang Pilipino</li>
-                    <li>Makabagong Media</li>
+                    <li>Verbal at Di-verbal na Komunikasyon</li>
+                    <li>Kultural na Aspeto ng Pakikipag-usap</li>
+                    <li>Tradisyonal at Makabagong Media</li>
+                    <li>Epektibong Pakikipag-ugnayan</li>
+                    <li>Digital na Komunikasyon</li>
                   </ul>
                 </div>
               </div>
@@ -76,16 +107,21 @@ const LandingPage = () => {
                   <div className="page-line left"></div>
                   <div className="page-content">
                     <h3>PAGBASA AT PAGSULAT SA IBA'T IBANG DISCIPLINA</h3>
+                    <p className="page-description">
+                      Integrasyon ng Filipino sa iba't ibang larangan ng pag-aaral
+                    </p>
                   </div>
                   <div className="page-line right"></div>
                   <div className="page-fold"></div>
                 </button>
-                <div className="info-bubble">
-                  <p>Integrasyon ng Filipino sa iba't ibang larangan</p>
+                <div className="info-bubble enhanced">
+                  <p>Espesyalisadong paggamit ng Filipino sa iba't ibang larangan</p>
                   <ul>
-                    <li>Teknikal na Pagsulat</li>
-                    <li>Akademikong Pagbasa</li>
-                    <li>Espesyalisadong Teksto</li>
+                    <li>Teknikal na Pagsulat at Pagbasa</li>
+                    <li>Akademikong Literatura</li>
+                    <li>Espesyalisadong Terminolohiya</li>
+                    <li>Interdisciplinary na Pag-aaral</li>
+                    <li>Praktikal na Aplikasyon</li>
                   </ul>
                 </div>
               </div>
@@ -98,16 +134,21 @@ const LandingPage = () => {
                   <div className="page-line left"></div>
                   <div className="page-content">
                     <h3>KONTEKSTUWALISADONG KOMUNIKASYON SA FILIPINO</h3>
+                    <p className="page-description">
+                      Paggamit ng Filipino sa iba't ibang konteksto at sitwasyon
+                    </p>
                   </div>
                   <div className="page-line right"></div>
                   <div className="page-fold"></div>
                 </button>
-                <div className="info-bubble">
-                  <p>Paggamit ng Filipino sa iba't ibang konteksto</p>
+                <div className="info-bubble enhanced">
+                  <p>Kontekstuwal na paggamit ng Filipino sa iba't ibang larangan</p>
                   <ul>
-                    <li>Propesyonal na Komunikasyon</li>
+                    <li>Propesyonal na Pakikipag-ugnayan</li>
                     <li>Panlipunang Diskurso</li>
-                    <li>Kontemporaryong Gamit</li>
+                    <li>Kontemporaryong Komunikasyon</li>
+                    <li>Situational na Paggamit ng Wika</li>
+                    <li>Kulturang Pilipino sa Komunikasyon</li>
                   </ul>
                 </div>
               </div>

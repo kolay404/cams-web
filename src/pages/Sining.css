@@ -63,7 +63,7 @@ body {
   
   .sining-container {
     min-height: 100vh;
-    background: linear-gradient(135deg, #800000 0%, #600000 100%);
+    background: linear-gradient(135deg, #373B44 0%, #4286f4 100%); /* Professional dark blue gradient */
     color: white;
     padding-bottom: 2rem;
   }
@@ -116,10 +116,10 @@ body {
   }
   
   .info-card h2 {
-    color: #f7bb29;
+    color: #90caf9; /* Light blue for headings */
     margin-bottom: 15px;
     font-size: 1.5rem;
-    border-bottom: 2px solid rgba(247, 187, 41, 0.3);
+    border-bottom: 2px solid rgba(144, 202, 249, 0.3);
     padding-bottom: 8px;
   }
   
@@ -151,7 +151,7 @@ body {
     content: '•';
     position: absolute;
     left: 0;
-    color: #f7bb29;
+    color: #90caf9;
   }
   
   .introduction {
@@ -215,7 +215,7 @@ body {
   .aralin-dropdown {
     padding: 12px 20px;
     font-size: 1.1rem;
-    border: 2px solid rgba(247, 187, 41, 0.5);
+    border: 2px solid rgba(144, 202, 249, 0.5); /* Light blue border */
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.2);
     color: white;
@@ -227,16 +227,16 @@ body {
   
   .aralin-dropdown:hover {
     background-color: rgba(0, 0, 0, 0.3);
-    border-color: #f7bb29;
+    border-color: #90caf9;
   }
   
   .aralin-dropdown:focus {
     outline: none;
-    box-shadow: 0 0 0 2px rgba(247, 187, 41, 0.3);
+    box-shadow: 0 0 0 2px rgba(144, 202, 249, 0.3);
   }
   
   .aralin-dropdown option {
-    background-color: #800000;
+    background-color: #373B44;
     color: white;
     padding: 12px;
   }
@@ -247,5 +247,73 @@ body {
       font-size: 1rem;
       padding: 10px 15px;
     }
+  }
+  
+  /* Add these new styles for long-form text handling */
+  .content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 20px;
+  }
+  
+  .info-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* New styles for text content */
+  .text-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.8;
+  }
+  
+  .text-content p {
+    margin-bottom: 1.5em;
+    text-align: justify;
+    font-size: 1.1rem;
+  }
+  
+  .text-content h3 {
+    color: #90caf9;
+    margin: 1.5em 0 0.8em;
+    font-size: 1.4rem;
+  }
+  
+  .text-content ul, .text-content ol {
+    margin: 1em 0;
+    padding-left: 2em;
+  }
+  
+  .text-content li {
+    margin-bottom: 0.8em;
+  }
+  
+  .text-section {
+    grid-column: 1 / -1;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 25px;
+  }
+  
+  .text-section.highlight {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.05));
+    border: 1px solid rgba(144, 202, 249, 0.2);
+  }
+  
+  .text-section blockquote {
+    margin: 1.5em 0;
+    padding: 1em 2em;
+    border-left: 4px solid #90caf9;
+    background: rgba(0, 0, 0, 0.2);
+    font-style: italic;
   }
   
