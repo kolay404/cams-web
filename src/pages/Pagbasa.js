@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Akademiko.css';
+import './Pagbasa.css';
 import Header from '../components/Header';
 
 // Content components for each module
