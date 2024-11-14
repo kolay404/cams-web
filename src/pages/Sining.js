@@ -307,11 +307,11 @@ function Sining() {
               onChange={(e) => setSelectedAralin(e.target.value)}
             >
               <option value="">Pumili ng Aralin</option>
-              <option value="1">Aralin 1: Introduksyon sa Komunikasyon</option>
-              <option value="2">Aralin 2: Verbal na Komunikasyon</option>
-              <option value="3">Aralin 3: Di-Verbal na Komunikasyon</option>
-              <option value="4">Aralin 4: Kultural na Komunikasyon</option>
-              <option value="5">Aralin 5: Makabagong Komunikasyon</option>
+              <option value="1">Aralin 1: Panimula</option>
+              <option value="2">Aralin 2: Ang Komunikasyon</option>
+              <option value="3">Aralin 3: Ang Wika</option>
+              <option value="4">Aralin 4: Ang Masining na Pagbabasa, Pakikinig at Pag-unawa</option>
+              <option value="5">Aralin 5: Ang Masining na Pagsasalita</option>
             </select>
           </div>
         </div>
