@@ -1,0 +1,63 @@
+/* Global Styles for the Sining Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light background for the page */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .split-screen {
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .left-column {
+    flex: 1;
+    background-color: #ff5733; /* Red background for the left section */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .right-column {
+    flex: 1;
+    background-color: #ffffff; /* White background for the right section */
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .left-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .right-container p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Styling for responsiveness */
+  @media (max-width: 768px) {
+    .split-screen {
+      flex-direction: column;
+    }
+  
+    .left-container h1 {
+      font-size: 2rem;
+    }
+  
+    .right-container p {
+      font-size: 1rem;
+    }
+  }
+  

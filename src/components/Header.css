@@ -1,0 +1,155 @@
+/* Add this in your CSS file or index.html */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.header {
+  background-color: white; /* Light grey background */
+  padding: 20px; /* Add some padding */
+  text-align: center; /* Center the text */
+  position: relative; /* Make the header container relative for positioning the icon */
+}
+
+.logo2-image {
+  width: 100%; /* Make the logo responsive */
+  max-width: 500px; /* Limit the logo width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  display: inline; /* Display links inline */
+  margin: 0 15px; /* Space between links */
+  font-weight: bold;
+  font-size: 15px;
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Link color */
+}
+
+/* Add this to include FontAwesome back icon */
+.back-icon {
+  font-size: 18px;
+  margin-right: 15px;
+  color: #333;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left: 20px;
+  top: 80%;
+  transform: translateY(-50%);
+}
+
+.hamburger-icon {
+  display: inline-block;
+  position: relative;
+}
+
+.hamburger-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  list-style-type: none;
+  width: 450px; /* Adjust width as needed */
+  padding: 0; /* Remove padding to avoid gaps */
+  margin: 0; /* Remove margin to avoid gaps */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: left;
+}
+
+.dropdown-menu li {
+  width: 100%;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
+  padding: 10px; /* Provides padding inside the link */
+  width: 100%; /* Ensures the link spans the full width of the li */
+  box-sizing: border-box; /* Keeps padding within the width */
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0; /* Light grey background on hover */
+  color: #000; /* Text color change on hover */
+
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .logo2-image {
+    max-width: 100%; /* Make logo smaller on smaller screens */
+  }
+
+  nav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  nav ul li {
+    display: block; /* Stack links vertically on smaller screens */
+    margin: 10px 0; /* Add spacing between links */
+    font-size: 14px; /* Slightly smaller font size */
+  }
+
+  /* Hide regular navigation links on small screens */
+  .hamburger-icon {
+    display: block;
+  }
+
+  .dropdown-menu {
+    width: 100%; /* Make the dropdown menu full width */
+  }
+
+  .back-icon {
+    font-size: 16px; /* Reduce back icon size */
+    top: 90%; /* Adjust position on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo2-image {
+    max-width: 80%; /* Make logo even smaller on very small screens */
+  }
+
+  .hamburger-button {
+    font-size: 30px; /* Increase hamburger icon size */
+  }
+}
