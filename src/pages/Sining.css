@@ -63,7 +63,7 @@ body {
   
   .sining-container {
     min-height: 100vh;
-    background: linear-gradient(135deg, #373B44 0%, #4286f4 100%); /* Professional dark blue gradient */
+    background: linear-gradient(135deg, #800020 0%, #A52A2A 100%); /* Maroon gradient */
     color: white;
     padding-bottom: 2rem;
   }
@@ -78,14 +78,28 @@ body {
     text-align: center;
     padding: 40px 0;
     margin-bottom: 30px;
-    background: rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.15), rgba(255, 215, 0, 0.05)); /* Gold gradient background */
     border-radius: 15px;
+    border: 1px solid rgba(255, 215, 0, 0.3); /* Gold border */
   }
   
   .title-section h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(120deg, transparent 0%, rgba(255, 215, 0, 0.2) 50%, transparent 100%); /* Gold highlight effect */
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border-radius: 8px;
+  }
+  
+  .title-section h2 {
+    color: #FFD700;
+    background: linear-gradient(120deg, transparent 0%, rgba(255, 215, 0, 0.15) 50%, transparent 100%); /* Lighter gold highlight for subheadings */
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border-radius: 6px;
+    margin: 15px 0;
   }
   
   .subtitle {
@@ -112,14 +126,15 @@ body {
   
   .info-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 20px rgba(128, 0, 32, 0.3);
+    border-color: rgba(255, 215, 0, 0.3);
   }
   
   .info-card h2 {
-    color: #90caf9; /* Light blue for headings */
+    color: #FFD700; /* Gold color for headings */
     margin-bottom: 15px;
     font-size: 1.5rem;
-    border-bottom: 2px solid rgba(144, 202, 249, 0.3);
+    border-bottom: 2px solid rgba(255, 215, 0, 0.3); /* Semi-transparent gold */
     padding-bottom: 8px;
   }
   
@@ -151,12 +166,13 @@ body {
     content: '•';
     position: absolute;
     left: 0;
-    color: #90caf9;
+    color: #FFD700; /* Gold bullet points */
   }
   
   .introduction {
     grid-column: 1 / -1;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.05));
+    background: linear-gradient(135deg, rgba(128, 0, 32, 0.15), rgba(128, 0, 32, 0.05));
+    border: 1px solid rgba(255, 215, 0, 0.2);
   }
   
   .comm-type {
@@ -215,9 +231,9 @@ body {
   .aralin-dropdown {
     padding: 12px 20px;
     font-size: 1.1rem;
-    border: 2px solid rgba(144, 202, 249, 0.5); /* Light blue border */
+    border: 2px solid rgba(255, 215, 0, 0.5); /* Gold border */
     border-radius: 8px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(128, 0, 32, 0.2); /* Semi-transparent maroon */
     color: white;
     cursor: pointer;
     width: 80%;
@@ -226,17 +242,17 @@ body {
   }
   
   .aralin-dropdown:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    border-color: #90caf9;
+    background-color: rgba(128, 0, 32, 0.3);
+    border-color: #FFD700;
   }
   
   .aralin-dropdown:focus {
     outline: none;
-    box-shadow: 0 0 0 2px rgba(144, 202, 249, 0.3);
+    box-shadow: 0 0 0 2px rgba(255, 215, 0, 0.3);
   }
   
   .aralin-dropdown option {
-    background-color: #373B44;
+    background-color: #800020; /* Maroon background for dropdown options */
     color: white;
     padding: 12px;
   }
@@ -282,7 +298,7 @@ body {
   }
   
   .text-content h3 {
-    color: #90caf9;
+    color: #FFD700; /* Gold color for subheadings */
     margin: 1.5em 0 0.8em;
     font-size: 1.4rem;
   }
@@ -305,15 +321,89 @@ body {
   }
   
   .text-section.highlight {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.05));
-    border: 1px solid rgba(144, 202, 249, 0.2);
+    background: linear-gradient(135deg, rgba(128, 0, 32, 0.12), rgba(128, 0, 32, 0.05));
+    border: 1px solid rgba(255, 215, 0, 0.2); /* Semi-transparent gold border */
   }
   
   .text-section blockquote {
     margin: 1.5em 0;
     padding: 1em 2em;
-    border-left: 4px solid #90caf9;
-    background: rgba(0, 0, 0, 0.2);
+    border-left: 4px solid #FFD700; /* Gold border for blockquotes */
+    background: rgba(128, 0, 32, 0.2);
     font-style: italic;
+  }
+  
+  /* Update text section heading styles */
+  .text-section h2 {
+    color: #FFD700;
+    background: linear-gradient(120deg, transparent 0%, rgba(255, 215, 0, 0.15) 50%, transparent 100%);
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  
+  /* Update text section heading and highlight styles */
+  .text-section h2 {
+    color: #FFD700;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style for highlighted terms and titles */
+  .text-content b, 
+  .text-content i b {
+    color: #FFD700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style for section titles and starting terms */
+  .text-content li b,
+  .text-content p b {
+    color: #FFD700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style for highlighted terms in lists */
+  .text-content li i {
+    color: #FFD700;
+    font-style: normal;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style for blockquotes */
+  .text-section blockquote {
+    margin: 1.5em 0;
+    padding: 1em 2em;
+    border-left: 4px solid #FFD700;
+    background: rgba(128, 0, 32, 0.3);
+    font-style: italic;
+    color: #FFD700;
+  }
+  
+  /* Style for section headings */
+  .text-content h3,
+  .text-content h2 {
+    color: #FFD700;
+    font-size: 1.4rem;
+    margin: 1.5em 0 0.8em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style for highlighted terms in paragraphs */
+  .text-content p i {
+    color: #FFD700;
+    font-style: normal;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style for list titles */
+  .text-content ol > li > i,
+  .text-content ul > li > i {
+    color: #FFD700;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   }
   

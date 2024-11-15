@@ -1,11 +1,10 @@
 .pagbasa-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #2b5876 0%, #4e4376 100%);
+  background: linear-gradient(135deg, #800020 0%, #A52A2A 100%);
   color: white;
   padding-bottom: 2rem;
 }
 
-/* Reuse most of the styles from Sining.css but with different colors */
 .main-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -16,14 +15,19 @@
   text-align: center;
   padding: 40px 0;
   margin-bottom: 30px;
-  background: rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.15), rgba(255, 215, 0, 0.05));
   border-radius: 15px;
+  border: 1px solid rgba(255, 215, 0, 0.3);
 }
 
 .title-section h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(120deg, transparent 0%, rgba(255, 215, 0, 0.2) 50%, transparent 100%);
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  border-radius: 8px;
 }
 
 .subtitle {
@@ -38,9 +42,9 @@
 .module-dropdown {
   padding: 12px 20px;
   font-size: 1.1rem;
-  border: 2px solid rgba(176, 200, 255, 0.5);
+  border: 2px solid rgba(255, 215, 0, 0.5);
   border-radius: 8px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(128, 0, 32, 0.2);
   color: white;
   cursor: pointer;
   width: 80%;
@@ -49,17 +53,17 @@
 }
 
 .module-dropdown:hover {
-  background-color: rgba(0, 0, 0, 0.3);
-  border-color: #b0c8ff;
+  background-color: rgba(128, 0, 32, 0.3);
+  border-color: #FFD700;
 }
 
 .module-dropdown:focus {
   outline: none;
-  box-shadow: 0 0 0 2px rgba(176, 200, 255, 0.3);
+  box-shadow: 0 0 0 2px rgba(255, 215, 0, 0.3);
 }
 
 .module-dropdown option {
-  background-color: #2b5876;
+  background-color: #800020;
   color: white;
   padding: 12px;
 }
@@ -71,80 +75,74 @@
   padding: 20px;
 }
 
-.info-card {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border-radius: 15px;
-  padding: 25px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.info-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-}
-
-.info-card h2 {
-  color: #b0c8ff;
-  margin-bottom: 15px;
-  font-size: 1.5rem;
-  border-bottom: 2px solid rgba(176, 200, 255, 0.3);
-  padding-bottom: 8px;
-}
-
-.info-card h3 {
-  color: #fff;
-  margin: 15px 0 10px;
-  font-size: 1.2rem;
-}
-
-.info-card p {
-  line-height: 1.6;
-  margin-bottom: 15px;
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.info-card ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.info-card li {
-  margin: 10px 0;
-  padding-left: 20px;
-  position: relative;
-  line-height: 1.4;
-}
-
-.info-card li::before {
-  content: '•';
-  position: absolute;
-  left: 0;
-  color: #b0c8ff;
-}
-
-.introduction {
-  grid-column: 1 / -1;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.05));
-  border: 1px solid rgba(176, 200, 255, 0.2);
-}
-
 .text-section.highlight {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.05));
-  border: 1px solid rgba(176, 200, 255, 0.2);
+  background: linear-gradient(135deg, rgba(128, 0, 32, 0.12), rgba(128, 0, 32, 0.05));
+  border: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.text-section h2 {
+  color: #FFD700;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.text-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.8;
+}
+
+.text-content b, 
+.text-content i b {
+  color: #FFD700;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.text-content li b,
+.text-content p b {
+  color: #FFD700;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.text-content li i {
+  color: #FFD700;
+  font-style: normal;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .text-section blockquote {
   margin: 1.5em 0;
   padding: 1em 2em;
-  border-left: 4px solid #b0c8ff;
-  background: rgba(0, 0, 0, 0.2);
+  border-left: 4px solid #FFD700;
+  background: rgba(128, 0, 32, 0.3);
   font-style: italic;
+  color: #FFD700;
 }
 
-/* Responsive Design */
+.text-content h3,
+.text-content h2 {
+  color: #FFD700;
+  font-size: 1.4rem;
+  margin: 1.5em 0 0.8em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.text-content p i {
+  color: #FFD700;
+  font-style: normal;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.text-content ol > li > i,
+.text-content ul > li > i {
+  color: #FFD700;
+  font-style: normal;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
 @media (max-width: 768px) {
   .title-section h1 {
     font-size: 2rem;
@@ -157,10 +155,6 @@
   .content-grid {
     grid-template-columns: 1fr;
     padding: 10px;
-  }
-
-  .info-card {
-    padding: 20px;
   }
 
   .module-dropdown {
@@ -178,11 +172,7 @@
     font-size: 1.5rem;
   }
 
-  .info-card h2 {
-    font-size: 1.3rem;
-  }
-
-  .info-card h3 {
-    font-size: 1.1rem;
+  .module-dropdown {
+    padding: 10px 15px;
   }
 } 
