@@ -8,13 +8,27 @@ const Aralin1Content = () => (
     <div className="text-section highlight">
       <h2>Aralin 1: Panimula</h2>
       <div className="text-content">
-        <p><i><b>Alpabetong Filipino</b></i> ay ang kasalukuyang alpabeto na ginagamit sa wikang Filipino, na binubuo ng 28 na titik. Ito ay resulta ng pagsasanib ng makalumang abakada at ng alpabetong Ingles upang makapag-akomodate ng mga tunog mula sa iba't ibang wika sa Pilipinas at mga banyagang salita.</p>        
-            <li>Mga Titik sa Alpabetong Filipino</li>
-              <p><i>A B C D E F G H I J K L M N Ñ Ng O P Q R S T U V W X Y Z</i></p>
+        <p>
+            <b>
+              <i style={{ fontStyle: "italic" }}>Alpabetong Filipino </i>
+            </b> 
+              ay ang kasalukuyang alpabeto na ginagamit sa wikang Filipino, na binubuo ng 28 na titik. Ito ay resulta ng pagsasanib ng makalumang abakada at ng alpabetong Ingles upang makapag-akomodate ng mga tunog mula sa iba't ibang wika sa Pilipinas at mga banyagang salita.
+          </p>
+            <ul>
+            <li><b>Mga Titik sa Alpabetong Filipino</b></li>
+            <p style={{ paddingLeft: '20px', fontStyle: 'italic' }}>
+              A B C D E F G H I J K L M N Ñ Ng O P Q R S T U V W X Y Z
+            </p>
+          </ul>
         
-        <p><i><b>Mga Tuntunin sa Pagbabaybay</b></i> ay mga gabay sa tamang pagsulat ng mga salita sa wikang Filipino, lalo na sa pagbaybay ng mga hiram na salita. Ang mga patnubay na ito ay naglalayong magkaroon ng uniformidad at pagkakaintindihan sa paggamit ng wika. Narito ang ilan sa mahahalagang tuntunin sa pagbabaybay sa Filipino:</p>        
+          <p>
+            <b>
+              <i style={{ fontStyle: "italic" }}>Mga Tuntunin sa Pagbabaybay </i>
+            </b> 
+            ay mga gabay sa tamang pagsulat ng mga salita sa wikang Filipino, lalo na sa pagbaybay ng mga hiram na salita. Ang mga patnubay na ito ay naglalayong magkaroon ng uniformidad at pagkakaintindihan sa paggamit ng wika. Narito ang ilan sa mahahalagang tuntunin sa pagbabaybay sa Filipino:
+          </p>
         <ol>
-        <li><b>Mga Grapema</b>
+        <h2><b>1. Mga Grapema</b></h2>
           <p> Ito ay binubuo ng:</p>
           <ol type="a">
             <li>Letra. Binubuo ng dalawampu’t walong (28) letra.</li>
@@ -26,29 +40,31 @@ const Aralin1Content = () => (
               </ul>
             </li>
           </ol>
-        </li>
-        <li><b>Mga Tuntuning Panlahat sa Pagbaybay</b>
+        <h2><b>2. Mga Tuntuning Panlahat sa Pagbaybay</b></h2>
           <ol type="a">
             <li>Pasalitang Pagbaybay. Ang ibig sabihin ay isa-isang pagbigkas sa maayos na pagkakasunod-sunod ng mga letrang bumubuo sa isang salita, pantig, akronim, daglat, inisyal, simbolong pang-agam, at iba pa.</li>
             <ul>
-                <li><i>Akronim</i></li>
-                    <p>ASEAN (Association of Southeast Asian Nation)
-                        /ey-es-i-ey-en/</p>
-                    <p>ARMM (Autonomous Region of Muslim Mindanao)
-                        /ey-ar-em-em/</p>
-                <li><i>Daglat</i></li>
-                    <p>Dra. (Doktora) /kapital di-ar-ey/</p>
-                    <p>Bb. (Binibini) /kapital bi-bi/</p>
-                <li><i>Inisyal ng Tao</i></li>
-                    <p>LKS (Lope K. Santos)	/el-key-as/</p>
-                    <p>CPR (Carlos P. Romulo)	/si-pi-ar/</p>
-                <li><i>Inisyal ng Samahan</i></li>
-                    <p>KWF (Komisyon sa Wikang Filipino) /key-dobolyu-ef/</p>
-                    <p>UP (Unibersidad ng Pilipinas) /yu-pi/</p>
-                <li><i>Simbolong Pang-agham/Pangmatematika</i></li>
-                    <p>lb. (pound)		/el-bi/</p>
-                    <p>kg. (kilogram)		/key-ji/</p>
-              </ul>
+              <li><span className="italic-text">Akronim</span></li>
+              <p>ASEAN (Association of Southeast Asian Nation) /ey-es-i-ey-en/</p>
+              <p>ARMM (Autonomous Region of Muslim Mindanao) /ey-ar-em-em/</p>
+
+              <li><span className="italic-text">Daglat</span></li>
+              <p>Dra. (Doktora) /kapital di-ar-ey/</p>
+              <p>Bb. (Binibini) /kapital bi-bi/</p>
+
+              <li><span className="italic-text">Inisyal ng Tao</span></li>
+              <p>LKS (Lope K. Santos) /el-key-as/</p>
+              <p>CPR (Carlos P. Romulo) /si-pi-ar/</p>
+
+              <li><span className="italic-text">Inisyal ng Samahan</span></li>
+              <p>KWF (Komisyon sa Wikang Filipino) /key-dobolyu-ef/</p>
+              <p>UP (Unibersidad ng Pilipinas) /yu-pi/</p>
+
+              <li><span className="italic-text">Simbolong Pang-agham/Pangmatematika</span></li>
+              <p>lb. (pound) /el-bi/</p>
+              <p>kg. (kilogram) /key-ji/</p>
+            </ul>
+
               <li>Pasulat na Pagbaybay</li>
               <ul>
                   <li>Panatilihin ang orihinal na anyo ng mga salitang mula sa katutubong wika sa Pilipinas.</li>
@@ -72,7 +88,7 @@ const Aralin1Content = () => (
                   <p>uso		-	oso</p>
               </ul>
           </ol>
-          <li><b>Ang Paghihiram</b></li>
+          <h2><b>3. Ang Paghihiram</b></h2>
           <ol type="a">
             <li><i>Tumbasan ng kasulukuyang leksikon sa Filipino ang mga salitang hiram o banyaga.</i></li>
               <p>rule	-	tuntunin</p>
@@ -88,8 +104,7 @@ const Aralin1Content = () => (
                   <p>opisina	-	hindi upisina</p>
               </ul>
           </ol>
-        </li>
-      </ol>
+         </ol>
       </div>
     </div>
   </div>

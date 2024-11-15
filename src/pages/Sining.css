@@ -45,6 +45,12 @@ body {
     text-align: center;
     margin: 20px 0;
   }
+
+  .italic-text {
+    font-style: italic;
+    color: #ffce01;
+  }
+  
   
   /* Styling for responsiveness */
   @media (max-width: 768px) {
@@ -94,7 +100,7 @@ body {
   }
   
   .title-section h2 {
-    color: #FFD700;
+    color: #ffce01;
     background: linear-gradient(120deg, transparent 0%, rgba(255, 215, 0, 0.15) 50%, transparent 100%); /* Lighter gold highlight for subheadings */
     display: inline-block;
     padding: 0.2em 0.5em;
@@ -131,7 +137,7 @@ body {
   }
   
   .info-card h2 {
-    color: #FFD700; /* Gold color for headings */
+    color: #ffce01; /* Gold color for headings */
     margin-bottom: 15px;
     font-size: 1.5rem;
     border-bottom: 2px solid rgba(255, 215, 0, 0.3); /* Semi-transparent gold */
@@ -166,7 +172,7 @@ body {
     content: '•';
     position: absolute;
     left: 0;
-    color: #FFD700; /* Gold bullet points */
+    color: #ffce01; /* Gold bullet points */
   }
   
   .introduction {
@@ -243,7 +249,7 @@ body {
   
   .aralin-dropdown:hover {
     background-color: rgba(128, 0, 32, 0.3);
-    border-color: #FFD700;
+    border-color: #ffce01;
   }
   
   .aralin-dropdown:focus {
@@ -298,7 +304,7 @@ body {
   }
   
   .text-content h3 {
-    color: #FFD700; /* Gold color for subheadings */
+    color: #ffce01; /* Gold color for subheadings */
     margin: 1.5em 0 0.8em;
     font-size: 1.4rem;
   }
@@ -328,14 +334,14 @@ body {
   .text-section blockquote {
     margin: 1.5em 0;
     padding: 1em 2em;
-    border-left: 4px solid #FFD700; /* Gold border for blockquotes */
+    border-left: 4px solid #ffce01; /* Gold border for blockquotes */
     background: rgba(128, 0, 32, 0.2);
     font-style: italic;
   }
   
   /* Update text section heading styles */
   .text-section h2 {
-    color: #FFD700;
+    color: #ffce01;
     background: linear-gradient(120deg, transparent 0%, rgba(255, 215, 0, 0.15) 50%, transparent 100%);
     display: inline-block;
     padding: 0.2em 0.5em;
@@ -345,7 +351,7 @@ body {
   
   /* Update text section heading and highlight styles */
   .text-section h2 {
-    color: #FFD700;
+    color: #ffce01;
     font-size: 1.8rem;
     margin-bottom: 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
@@ -354,20 +360,20 @@ body {
   /* Style for highlighted terms and titles */
   .text-content b, 
   .text-content i b {
-    color: #FFD700;
+    color: #ffce01;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   }
   
   /* Style for section titles and starting terms */
   .text-content li b,
   .text-content p b {
-    color: #FFD700;
+    color: #ffce01;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   }
   
   /* Style for highlighted terms in lists */
   .text-content li i {
-    color: #FFD700;
+    color: #ffce01;
     font-style: normal;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   }
@@ -376,16 +382,16 @@ body {
   .text-section blockquote {
     margin: 1.5em 0;
     padding: 1em 2em;
-    border-left: 4px solid #FFD700;
+    border-left: 4px solid #ffce01;
     background: rgba(128, 0, 32, 0.3);
     font-style: italic;
-    color: #FFD700;
+    color: #ffce01;
   }
   
   /* Style for section headings */
   .text-content h3,
   .text-content h2 {
-    color: #FFD700;
+    color: #ffce01;
     font-size: 1.4rem;
     margin: 1.5em 0 0.8em;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
@@ -393,7 +399,7 @@ body {
   
   /* Style for highlighted terms in paragraphs */
   .text-content p i {
-    color: #FFD700;
+    color: #ffce01;
     font-style: normal;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   }
@@ -401,7 +407,7 @@ body {
   /* Style for list titles */
   .text-content ol > li > i,
   .text-content ul > li > i {
-    color: #FFD700;
+    color: #ffce01;
     font-style: normal;
     font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
