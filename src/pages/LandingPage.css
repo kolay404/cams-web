@@ -1,15 +1,17 @@
-/* Global Styles */
+/* Global reset and container styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
+  /* Split screen layout for landing page */
   .landing-container {
     min-height: 100vh;
     display: flex;
   }
   
+  /* Left section styling with logo and course info */
   .left-section {
     flex: 1;
     background-color: white;
@@ -20,6 +22,7 @@
     position: relative;
   }
   
+  /* Right section styling with book interface */
   .right-section {
     flex: 1;
     background-color: maroon;
@@ -35,6 +38,7 @@
     margin-bottom: 2rem;
   }
   
+  /* 3D book effect styling */
   .book {
     perspective: 1500px;
     width: 90%;
@@ -54,6 +58,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
   
+  /* Book spine and pages styling */
   .book-spine {
     position: absolute;
     left: 0;
@@ -96,6 +101,7 @@
     margin-left: 60px;
   }
   
+  /* Individual page styling and hover effects */
   .page {
     position: relative;
     width: 100%;
@@ -137,6 +143,7 @@
     position: relative;
   }
   
+  /* Information bubble styling for hover tooltips */
   .info-bubble {
     position: absolute;
     top: -80px;
@@ -414,6 +421,7 @@
     }
   }
   
+  /* Course description card styling */
   .course-description {
     text-align: center;
     margin-top: 2rem;
@@ -476,7 +484,7 @@
     color: #f7bb29;
   }
   
-  /* Responsive adjustments */
+  /* Responsive design adjustments */
   @media (max-width: 768px) {
     .course-description {
       max-width: 90%;

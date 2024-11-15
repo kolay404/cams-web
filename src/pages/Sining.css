@@ -1,4 +1,4 @@
-/* Global Styles for the Sining Page */
+/* Base typography and layout styles for the entire Sining page */
 body {
     font-family: Arial, sans-serif;
     background: #ffffff;
@@ -8,16 +8,18 @@ body {
     min-height: 100vh;
 }
 
-/* Remove the pattern overlay */
+/* Removes default background pattern from the body element */
 body::before {
     display: none;
 }
 
+/* Split screen layout container for two-column design */
 .split-screen {
     display: flex;
     height: 100vh; /* Full height of the viewport */
 }
 
+/* Left column styling with red background and centered content */
 .left-column {
     flex: 1;
     background-color: #ff5733; /* Red background for the left section */
@@ -28,6 +30,7 @@ body::before {
     padding: 20px;
 }
 
+/* Right column styling with white background and vertical content alignment */
 .right-column {
     flex: 1;
     background-color: #ffffff; /* White background for the right section */
@@ -38,6 +41,7 @@ body::before {
     padding: 20px;
 }
 
+/* Main heading styles for the left container */
 .left-container h1 {
     font-size: 3rem;
     font-weight: bold;
@@ -46,6 +50,7 @@ body::before {
     margin: 0;
 }
 
+/* Paragraph text styling for the right container */
 .right-container p {
     font-size: 1.25rem;
     line-height: 1.5;
@@ -53,12 +58,13 @@ body::before {
     margin: 20px 0;
 }
 
+/* Special styling for emphasized text with gold color */
 .italic-text {
     font-style: italic;
     color: #ffce01;
 }
 
-/* Styling for responsiveness */
+/* Responsive design adjustments for smaller screens */
 @media (max-width: 768px) {
     .split-screen {
         flex-direction: column;
@@ -73,9 +79,10 @@ body::before {
     }
 }
 
+/* Main container wrapper with shadow and rounded corners */
 .sining-container {
     margin: 150px auto 3rem auto;
-    max-width: 1400px;
+    max-width: 1200px;
     padding: 40px;
     position: relative;
     background: rgba(255, 255, 255, 0.95);
@@ -86,6 +93,7 @@ body::before {
         0 0 0 1px rgba(128, 0, 32, 0.1);
 }
 
+/* Decorative gradient border animation for main container */
 .sining-container::before {
     content: '';
     position: absolute;
@@ -102,6 +110,7 @@ body::before {
     animation: borderGradient 6s ease infinite;
 }
 
+/* Animation keyframes for the gradient border effect */
 @keyframes borderGradient {
     0% {
         background-position: 0% 50%;
@@ -114,6 +123,7 @@ body::before {
     }
 }
 
+/* Primary content area with maroon background and gold accents */
 .main-content {
     background: rgba(140, 36, 43, 1);
     border-radius: 20px;
@@ -126,6 +136,7 @@ body::before {
     border: 1px solid rgba(255, 215, 0, 0.1);
 }
 
+/* Title section with centered text and gradient background */
 .title-section {
     text-align: center;
     padding: 50px 0;
@@ -137,6 +148,7 @@ body::before {
     box-shadow: 0 5px 15px rgba(128, 0, 32, 0.1);
 }
 
+/* Decorative line separator after title section */
 .title-section::after {
     content: '';
     position: absolute;
@@ -148,6 +160,7 @@ body::before {
     background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.3), transparent);
 }
 
+/* Main heading styles with shadow and gradient effects */
 .title-section h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
@@ -158,6 +171,7 @@ body::before {
     border-radius: 8px;
 }
 
+/* Subheading styles with gold color and gradient background */
 .title-section h2 {
     color: #ffce01;
     background: linear-gradient(120deg, transparent 0%, rgba(255, 215, 0, 0.15) 50%, transparent 100%); /* Lighter gold highlight for subheadings */
@@ -167,11 +181,13 @@ body::before {
     margin: 15px 0;
 }
 
+/* Subtitle text styling with semi-transparent white */
 .subtitle {
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.9);
 }
 
+/* Grid layout for organizing content sections */
 .content-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -179,6 +195,7 @@ body::before {
     padding: 30px;
 }
 
+/* Card styling for information sections with hover effects */
 .info-card {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -191,6 +208,7 @@ body::before {
     position: relative;
 }
 
+/* Decorative line separator for info cards */
 .info-card::after {
     content: '';
     position: absolute;
@@ -202,6 +220,7 @@ body::before {
     background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.2), transparent);
 }
 
+/* Hover state animation for info cards */
 .info-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 25px rgba(128, 0, 32, 0.2),
@@ -209,6 +228,7 @@ body::before {
     border-color: rgba(255, 215, 0, 0.3);
 }
 
+/* Heading styles within info cards with gold accents */
 .info-card h2 {
     color: #ffce01; /* Gold color for headings */
     margin-bottom: 15px;
@@ -217,23 +237,27 @@ body::before {
     padding-bottom: 8px;
 }
 
+/* Subheading styles within info cards */
 .info-card h3 {
     color: #fff;
     margin: 15px 0 10px;
     font-size: 1.3rem;
 }
 
+/* Paragraph text styling within info cards */
 .info-card p {
     line-height: 1.6;
     margin-bottom: 15px;
     color: rgba(255, 255, 255, 0.9);
 }
 
+/* Unordered list styling within info cards */
 .info-card ul {
     list-style-type: none;
     padding-left: 0;
 }
 
+/* List item styling with custom positioning */
 .info-card li {
     margin: 10px 0;
     padding-left: 20px;
@@ -241,6 +265,7 @@ body::before {
     line-height: 1.4;
 }
 
+/* Custom bullet points for list items */
 .info-card li::before {
     content: '•';
     position: absolute;
@@ -248,16 +273,19 @@ body::before {
     color: #ffce01; /* Gold bullet points */
 }
 
+/* Special styling for introduction sections */
 .introduction {
     grid-column: 1 / -1;
     background: linear-gradient(135deg, rgba(128, 0, 32, 0.15), rgba(128, 0, 32, 0.05));
     border: 1px solid rgba(255, 215, 0, 0.2);
 }
 
+/* Communication type section styling */
 .comm-type {
     margin-bottom: 20px;
 }
 
+/* Styling for modern examples and tips sections */
 .modern-examples, .tips-content {
     background: rgba(0, 0, 0, 0.1);
     padding: 15px;
@@ -265,7 +293,7 @@ body::before {
     margin-top: 10px;
 }
 
-/* Responsive Design */
+/* Responsive design adjustments for tablets and mobile */
 @media (max-width: 768px) {
     .split-screen {
         flex-direction: column;
@@ -299,6 +327,7 @@ body::before {
     }
 }
 
+/* Additional responsive adjustments for smaller mobile devices */
 @media (max-width: 480px) {
     .title-section {
         padding: 20px 10px;
@@ -317,12 +346,14 @@ body::before {
     }
 }
 
+/* Aralin (lesson) selector dropdown styling */
 .aralin-selector {
     margin: 20px auto;
     position: relative;
     width: fit-content;
 }
 
+/* Dropdown menu styling with hover effects */
 .aralin-dropdown {
     padding: 15px 25px;
     font-size: 1.3rem;
@@ -337,6 +368,7 @@ body::before {
     box-shadow: 0 4px 12px rgba(128, 0, 32, 0.1);
 }
 
+/* Hover state for dropdown menu */
 .aralin-dropdown:hover {
     background-color: rgba(128, 0, 32, 0.3);
     border-color: #ffce01;
@@ -344,17 +376,20 @@ body::before {
     transform: translateY(-2px);
 }
 
+/* Focus state for dropdown menu accessibility */
 .aralin-dropdown:focus {
     outline: none;
     box-shadow: 0 0 0 2px rgba(255, 215, 0, 0.3);
 }
 
+/* Dropdown option styling */
 .aralin-dropdown option {
     background-color: #800020; /* Maroon background for dropdown options */
     color: white;
     padding: 12px;
 }
 
+/* Mobile-specific dropdown adjustments */
 @media (max-width: 480px) {
     .aralin-dropdown {
         width: 90%;
@@ -363,7 +398,7 @@ body::before {
     }
 }
 
-/* Add these new styles for long-form text handling */
+/* Content grid layout system */
 .content-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -371,6 +406,7 @@ body::before {
     padding: 20px;
 }
 
+/* Information card styling with backdrop blur effect */
 .info-card {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -381,47 +417,14 @@ body::before {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* New styles for text content */
+/* Text content container styling */
 .text-content {
     position: relative;
     padding: 20px;
     margin: 20px 0;
 }
 
-.text-content::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 3px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, rgba(255, 215, 0, 0.3), transparent);
-    border-radius: 3px;
-}
-
-.text-content p {
-    margin-bottom: 1.5em;
-    text-align: justify;
-    font-size: 1.1rem;
-    line-height: 1.6;
-}
-
-.text-content h3 {
-    color: #ffce01; /* Gold color for subheadings */
-    margin: 1.5em 0 0.8em;
-    font-size: 1.5rem;
-}
-
-.text-content ul, .text-content ol {
-    margin: 1em 0;
-    padding-left: 2.5em;
-    font-size: 1.1rem;
-}
-
-.text-content li {
-    margin-bottom: 0.8em;
-}
-
+/* Text section styling with gradient backgrounds */
 .text-section {
     grid-column: 1 / -1;
     background: rgba(255, 255, 255, 0.1);
@@ -449,6 +452,7 @@ body::before {
     box-shadow: 0 10px 25px rgba(128, 0, 32, 0.15);
 }
 
+/* Blockquote styling within text sections */
 .text-section blockquote {
     margin: 1.5em 0;
     padding: 1em 2em;
@@ -457,7 +461,7 @@ body::before {
     font-style: italic;
 }
 
-/* Update text section heading styles */
+/* Text section heading styles */
 .text-section h2 {
     color: #ffce01;
     background: linear-gradient(120deg, transparent 0%, rgba(255, 215, 0, 0.15) 50%, transparent 100%);
@@ -482,28 +486,28 @@ body::before {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* Style for section titles and starting terms */
+/* Section titles and starting terms styling */
 .text-content li b,
 .text-content p b {
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* Style for highlighted terms in lists */
+/* Highlighted terms in lists styling */
 .text-content li i {
     color: white;
     font-style: italic;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* Style for highlighted terms in paragraphs */
+/* Highlighted terms in paragraphs styling */
 .text-content p i {
     color: white;
     font-style: italic;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* Style for list titles */
+/* List title styling */
 .text-content ol > li > i,
 .text-content ul > li > i {
     color: white;
