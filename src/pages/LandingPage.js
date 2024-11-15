@@ -54,22 +54,18 @@ const LandingPage = () => {
               <div className="page-wrapper">
                 <button 
                   className="page page2"
-                  onClick={handlePagbasaClick}
+                  onClick={handleSiningClick}
                 >
                   <div className="page-line left"></div>
                   <div className="page-content">
-                    <h3>PAGBASA AT PAGSULAT SA IBA'T IBANG DISCIPLINA</h3>
-                    <p className="page-description">
-                    Integrasyon ng Filipino sa iba't ibang larangan ng pag-aaral
-                    </p>
+                    <h3>SINING NG PAKIKIPAGTALASTASAN</h3>
                   </div>
                   <div className="page-line right"></div>
                   <div className="page-fold"></div>
                 </button>
                 <div className="info-bubble enhanced">
-                  <p>Masusing pag-aaral ng iba't ibang anyo ng komunikasyon</p>
                   <ul>
-                    <li>Aralin 1: Panimula</li>
+                  <li>Aralin 1: Panimula</li>
                     <li>Aralin 2: Ang Komunikasyon</li>
                     <li>Aralin 3: Ang Wika</li>
                     <li>Aralin 4: Ang Masining na Pagbabasa, Pakikinig at Pag-unawa</li>
@@ -82,25 +78,24 @@ const LandingPage = () => {
               <div className="page-wrapper">
                 <button 
                   className="page page3"
-                  onClick={handleSiningClick}
-                >
-                  <div className="page-line left"></div>
-                  <div className="page-content">
-                    <h3>SINING NG PAKIKIPAGTALASTASAN</h3>
+                  onClick={handlePagbasaClick}
+                  >
+                    <div className="page-line left"></div>
+                    <div className="page-content">
+                      <h3>PAGBASA AT PAGSULAT SA IBA'T IBANG DISCIPLINA</h3>
+                    </div>
+                    <div className="page-line right"></div>
+                    <div className="page-fold"></div>
+                  </button>
+                  <div className="info-bubble enhanced">
+                    <ul>
+                      <li>Aralin 1: Pagbasa sa Iba’t Ibang Disciplina</li>
+                      <li>Aralin 2: Pagsulat sa Iba’t Ibang Disciplina</li>
+                      <li>Talasanggunian / Mga Sanggunian sa Internet (add also in the PAGE - dropdown)</li>
+                    </ul>
                   </div>
-                  <div className="page-line right"></div>
-                  <div className="page-fold"></div>
-                </button>
-                <div className="info-bubble enhanced">
-                  <p>Kontekstuwal na paggamit ng Filipino sa iba't ibang larangan</p>
-                  <ul>
-                    <li>Aralin 1: Pagbasa sa Iba’t Ibang Disciplina</li>
-                    <li>Aralin 2: Pagsulat sa Iba’t Ibang Disciplina</li>
-                    <li>Talasanggunian / Mga Sanggunian sa Internet (add also in the PAGE - dropdown)</li>
-                  </ul>
                 </div>
-              </div>
-
+                  
               <div className="page-wrapper">
                 <button 
                   className="page page4"
