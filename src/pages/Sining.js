@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Sining.css';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 // Content components for each Aralin
 const Aralin1Content = () => (
@@ -299,6 +300,7 @@ function Sining() {
   };
 
   return (
+    <>
     <div className="sining-container">
       <Header />
       
@@ -326,6 +328,8 @@ function Sining() {
         {renderContent()}
       </div>
     </div>
+    <Footer /> {/* Make sure this is inside the Fragment */}
+    </>
   );
 }
 
