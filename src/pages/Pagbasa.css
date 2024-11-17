@@ -1,4 +1,14 @@
 /* Base styles for the page body */
+/* Apply justification to all paragraphs and text */
+body, p{
+    text-align: justify;
+}
+
+/* Optionally justify only paragraph text */
+p {
+    text-align: justify;
+}
+
 body {
     font-family: Arial, sans-serif;
     background: #ffffff;
@@ -204,7 +214,7 @@ body::before {
 /* Heading styles within text content */
 .text-content h3,
 .text-content h2 {
-    color: white;
+    color: #ffce01;
     font-size: 1.5rem;
     margin: 2em 0 1em;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
@@ -226,31 +236,31 @@ body::before {
 /* Bold text styling within content */
 .text-content b, 
 .text-content i b {
-    color: white;
+    color: #ffce01;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .text-content li b,
 .text-content p b {
-    color: white;
+    color: #ffce01;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .text-content li i {
-    color: white;
+    color: #ffce01;
     font-style: italic;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .text-content p i {
-    color: white;
+    color: #ffce01;
     font-style: italic;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .text-content ol > li > i,
 .text-content ul > li > i {
-    color: white;
+    color: #ffce01;
     font-style: italic;
     font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);

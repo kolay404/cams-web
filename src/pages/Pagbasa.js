@@ -89,7 +89,7 @@ const Module1Content = () => (
             <li><b>Problema at Solusyon</b></li>
             <p>Karaniwang na ang problema sa isang tao na ang kasunod ay ang pagbibigay ng solusyon sa problemang kinakaharap. Sa akdang pampanitikan na binabasa, umiikot ang kwento sa tinatawag na tunggalian o suliranin patungo sa resolusyon o kakalasan kung binibigyan ng kalutasan ang nagging problema sa kwento.</p>
             <p>Halimbawa: “May mga paraan upang mapakinabangan ang texting nakinababaliwan ng mga mag-aaral at itinuturing ng mga guro na sagabal sa kanilang pag-aaral.”</p>
-            <li>Sanhi at Bunga</li>
+            <li><b>Sanhi at Bunga</b></li>
             <p>Ang sanhi ay isang ideya o pangyayari na maaaring humantong sa isang bunga. Halimbawa, mo ang sirenang bumbero. Ano ang maaaring maging bunga sirenang ito?</p>
             <p>Halimbawa: Epekto ng kalamidad sa kabuhayan ng mga tao.”</p>
         </ol>
@@ -276,9 +276,7 @@ function Pagbasa() {
       
       <div className="main-content">
         <div className="title-section">
-          <h1>PAGBASA AT PAGSULAT SA IBA'T IBANG DISIPLINA</h1>
-          <p className="subtitle">Integrasyon ng Filipino sa Iba't Ibang Larangan ng Pag-aaral</p>
-          
+          <h1>PAGBASA AT PAGSULAT SA IBA'T IBANG DISIPLINA</h1>          
           <div className="module-selector">
             <select 
               className="module-dropdown"

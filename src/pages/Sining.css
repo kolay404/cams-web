@@ -1,4 +1,14 @@
 /* Global Styles for the Sining Page */
+/* Apply justification to all paragraphs and text */
+body, p{
+    text-align: justify;
+}
+
+/* Optionally justify only paragraph text */
+p {
+    text-align: justify;
+}
+
 body {
     font-family: Arial, sans-serif;
     background: #ffffff;

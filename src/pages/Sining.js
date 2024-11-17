@@ -117,13 +117,13 @@ const Aralin2Content = () => (
       <div className="text-content">
         <p>Ang <i><b>komunikasyon</b></i> ay ang proseso ng pagpapahayag ng kaisipan, impormasyon, at damdamin sa paraang berbal at di-berbal. Mahalaga ito sa sining ng pakikipagtalastasan sapagkat ito ang pundasyon ng lahat ng anyo ng interaksyon sa lipunan.</p>
         <ol>
-          <li><b>Mga Uri mg Komunikasyon</b>
+          <li><b>Mga Uri mg Komunikasyon:</b>
             <ol>
               <li><i>Komunikasyong Berbal</i> - Ang paggamit ng wika sa pasalita at pasulat na anyo.</li>
               <li><i>Komunikasyong Di-Berbal</i> - Ang pagpapahayag ng mensahe sa pamamagitan ng kilos, ekspresyon ng mukha, at kumpas ng kamay.</li>
             </ol>
           </li>
-          <li>Mga Uri ng Prosesong Pangkomunikasyon:
+          <li><b>Mga Uri ng Prosesong Pangkomunikasyon:</b>
             <ol>
               <li><i>Intrapersonal</i> - uri ng komunikasyong tinatawag na pansarili lamang sapagkat ito ay nagaganap sa mga sandali ng pagmumuni-muni o pagninilay-nilay. Nagaganap ang komunikasyon sa isipan ng tao. Ang utak ay pinoproseso, binibigyang interpretasyon at sinusuri ang mga impormasyong natanggap.</li>
               <li><i>Interpersonal</i> - nagaganap ito sa pagitan ng dalawang tao o pakikipag-usap ng isang tao sa isang mallit na pangkat. Nakikipag-ugnayan o nakikisalamuha tayo sa komunikasyong interpersonal dahil kailangan nating maipahayag at matanggap ang pangangailangan nating personal.</li>
@@ -305,8 +305,7 @@ function Sining() {
       <div className="main-content">
         <div className="title-section">
           <h1>SINING NG PAKIKIPAGTALASTASAN</h1>
-          <p className="subtitle">Pag-aaral ng Sining ng Komunikasyon sa Filipino</p>
-          
+                    
           <div className="aralin-selector">
             <select 
               className="aralin-dropdown"
