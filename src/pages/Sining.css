@@ -23,46 +23,6 @@ body::before {
     display: none;
 }
 
-.split-screen {
-    display: flex;
-    height: 100vh; /* Full height of the viewport */
-}
-
-.left-column {
-    flex: 1;
-    background-color: #ff5733; /* Red background for the left section */
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-}
-
-.right-column {
-    flex: 1;
-    background-color: #ffffff; /* White background for the right section */
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-}
-
-.left-container h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0;
-}
-
-.right-container p {
-    font-size: 1.25rem;
-    line-height: 1.5;
-    text-align: center;
-    margin: 20px 0;
-}
-
 .italic-text {
     font-style: italic;
     color: #ffce01;

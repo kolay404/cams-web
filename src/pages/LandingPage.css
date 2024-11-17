@@ -33,10 +33,12 @@
   }
   
   .logo-image {
-    width: 180px;
-    height: auto;
+    width: 100%; /* Allow the logo to scale based on its container */
+    max-width: 1500px; /* Set a larger maximum size */
+    height: auto; /* Maintain aspect ratio */
     margin-bottom: 2rem;
-  }
+    transition: width 0.3s ease; /* Smooth resizing for responsiveness */
+}
   
   /* 3D book effect styling */
   .book {
@@ -376,6 +378,10 @@
     .page-line.right {
       right: 15px;
     }
+
+    .logo-image {
+      width: 80%; /* Slightly smaller for tablets and smaller screens */
+    }
   }
   
   @media (max-width: 480px) {
@@ -384,7 +390,7 @@
     }
   
     .logo-image {
-      width: 90%;
+      width: 70%;
     }
   
     .book-spine {
@@ -420,30 +426,7 @@
       font-size: 0.8rem;
     }
   }
-  
-  /* Course description card styling */
-  .course-description {
-    text-align: center;
-    margin-top: 2rem;
-    padding: 1.5rem;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    max-width: 80%;
-  }
-  
-  .course-description h2 {
-    color: white;
-    margin-bottom: 1rem;
-    font-size: 1.8rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  }
-  
-  .course-description p {
-    color: rgba(255, 255, 255, 0.9);
-    line-height: 1.6;
-    font-size: 1.1rem;
-  }
-  
+
   .page-description {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.8);
@@ -486,19 +469,6 @@
   
   /* Responsive design adjustments */
   @media (max-width: 768px) {
-    .course-description {
-      max-width: 90%;
-      padding: 1rem;
-    }
-  
-    .course-description h2 {
-      font-size: 1.5rem;
-    }
-  
-    .course-description p {
-      font-size: 1rem;
-    }
-  
     .page-description {
       font-size: 0.8rem;
     }
@@ -511,60 +481,5 @@
     width: 100%;
     max-width: 600px;
   }
-  
-  .course-title-container {
-    text-align: center;
-    margin-bottom: 2rem;
-    width: 100%;
-  }
-  
-  .main-title {
-    color: #1a237e;
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-  }
-  
-  .title-underline {
-    height: 4px;
-    width: 80%;
-    margin: 0.5rem auto;
-    background: linear-gradient(90deg, #1a237e, #4286f4);
-    border-radius: 2px;
-  }
-  
-  .course-subtitle {
-    color: #4a4a4a;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-  }
-  
-  .course-description {
-    width: 100%;
-    padding: 0 1rem;
-  }
-  
-  .description-card {
-    background: linear-gradient(135deg, #f5f7ff 0%, #e8eaff 100%);
-    border-radius: 15px;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(26, 35, 126, 0.1);
-  }
-  
-  .description-card h3 {
-    color: #1a237e;
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-  }
-  
-  .description-card p {
-    color: #4a4a4a;
-    line-height: 1.6;
-    font-size: 1.1rem;
-    text-align: justify;
-  }
+
   
