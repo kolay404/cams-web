@@ -1,0 +1,116 @@
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch; /* Ensures all sections have equal height */
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .footer-section {
+    flex: 1 1 300px; /* Flexible layout with a minimum width of 300px */
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centers content vertically */
+    text-align: center;
+    padding: 10px; /* Adds internal spacing for equal height feel */
+    box-sizing: border-box;
+  }
+  
+  .logo3-image {
+    width: 200px;
+    max-width: 100%;
+  }
+  
+  .contact-info, .social-media {
+    text-align: center;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
+  }
+  
+  .contact-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Media Queries for Smaller Screens */
+  @media (max-width: 800px) {
+    .footer {
+      padding: 15px;
+      flex-direction: row; /* Sections remain side-by-side until no space */
+    }
+  
+    .footer-section {
+      flex: 1 1 auto;
+      margin: 0 10px;
+    }
+  
+    .contact-item {
+      justify-content: center;
+      font-size: 14px;
+    }
+  
+    .contact-icon {
+      width: 18px;
+      height: 18px;
+    }
+  
+    .social-icon {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .footer {
+      padding: 10px;
+      flex-direction: column; /* Stacks sections vertically */
+    }
+  
+    .footer-section {
+      width: 100%; /* Full-width sections for small screens */
+      max-width: none;
+    }
+  
+    .contact-item {
+      font-size: 12px;
+      gap: 5px;
+    }
+  
+    .contact-icon {
+      width: 16px;
+      height: 16px;
+    }
+  
+    .social-icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  

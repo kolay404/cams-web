@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Pagbasa.css';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 // Content components for each module
 const Module1Content = () => (
@@ -271,6 +272,7 @@ function Pagbasa() {
   };
 
   return (
+    <>
     <div className="pagbasa-container">
       <Header />
       
@@ -294,6 +296,8 @@ function Pagbasa() {
         {renderContent()}
       </div>
     </div>
+    <Footer /> {/* Make sure this is inside the Fragment */}
+    </>
   );
 }
 
