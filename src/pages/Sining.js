@@ -252,12 +252,12 @@ const Aralin6Content = () => (
             <li>Roselle Abuel</li>
             <li>Ang Masining Na Pagbigkas: website
             <a
-              href="https://www.slideshare.net/EmmanuelAlimpolos/mga-kasanayan-sa-akademikong-pagbasa-55453099"
+              href="https://www.scribd.com/document/367152644/Ang-Masining-Na-Pagbigkas"
               target="_blank"
               rel="noopener noreferrer"
               className="custom-link"
             >
-              https://www.slideshare.net/EmmanuelAlimpolos/mga-kasanayan-sa-akademikong-pagbasa-55453099
+              https://www.scribd.com/document/367152644/Ang-Masining-Na-Pagbigkas
             </a>
             </li>
             </li>
