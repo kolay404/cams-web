@@ -155,28 +155,52 @@ const Module1Content = () => (
 const Module2Content = () => (
   <div className="content-grid">
     <div className="text-section highlight">
-      <h2>Modyul 2: Pagbasa at Pagsulat sa Agham</h2>
+      <h2>Aralin 2: PAGSULAT SA IBA’T IBANG DISCIPLINA</h2>
       <div className="text-content">
-        <p>Ang larangan ng agham ay may natatanging pangangailangan sa pagbasa at pagsulat. Kabilang dito ang paggamit ng teknikal na terminolohiya at malinaw na pagpapaliwanag ng mga proseso at resulta.</p>
-
-        <h3>Mga Uri ng Tekstong Pang-agham</h3>
+        <h2>1. Kahulugan ng Pagsulat</h2>
         <ul>
-          <li><strong>Laboratory Report</strong> - Dokumentasyon ng mga eksperimento</li>
-          <li><strong>Scientific Paper</strong> - Pormal na ulat ng pananaliksik</li>
-          <li><strong>Technical Documentation</strong> - Paglalarawan ng mga proseso at pamamaraan</li>
+          <li>Ay pagsasalin sa papel o anumang kasangkapang maaaring magamit na mapagsasalinan ng mga nabuong salita, simbolo at ilustrasyon ng isang tao o mga tao sa layuning maipahayag ang kaniyang kaisipan. (Bernales, at al. 2001)</li>
+          <li>Ay isang biyaya, isang pangangailangan at isang kaligayan ng nagsasagawa nito. (Keller 1985)</li>
+          <li>Ay isang komprehensiv na kakayahang naglalaman ng wastong gamit, talasalitaan, pagbubuo ng kaisipan, retorika at iba pang elementio. (Xin Jin 1989)</li>
         </ul>
-
-        <blockquote>
-          "Sa agham, ang kawastuan at kalinawan ng pagsulat ay mahalaga para sa wastong pag-unawa ng mga konsepto."
-        </blockquote>
-
-        <h3>Mga Pamantayan sa Pagsulat ng Agham</h3>
-        <ol>
-          <li>Paggamit ng tamang terminolohiya</li>
-          <li>Obhetibong paglalahad</li>
-          <li>Malinaw na pagpapaliwanag ng metodolohiya</li>
-          <li>Tumpak na presentasyon ng datos</li>
-        </ol>
+        <h2>2. Kahuluhan ng Pagsulat</h2>
+        <ul>
+          <li>Kung marunong tayong sumulat makaaangat tayo sa iba dala na rin ng mahigpit na kompetisyon sa ngayon.</li>
+          <li>Makasasagot tayo sa mga pagsusulit na pasanaysay, pagbibigay ng ulat, pagtatala ng resulta ng mga eksperimentasyon at paglikha ng mga papel pananaliksik dahil ito ay bahagi ng pananagumpay.</li>
+          <li>Sa daigdig ng edukasyon, kailangang sumulat tayo ng liham ng aplikasyon, paggawa ng balangkas pangkaunlaran, gumawa ng anunsyo, umapila sa paglilikom ng pondo, sumagot sa pakiusap ng mga kliyente at marami pang iba.</li>
+        </ul>
+        <h2>3.	Sosyo-Kognitibong na Pananaw sa Pagsulat</h2>
+        <ul>
+          <li>Sosyo – ito ay isang salitang tumutukoy sa lipunan ng mga tao. Samantalang ang kognitib naman ay tumutukoy sap ag-iisip.</li>
+          <li>Ang sosyo – kognitibong pananaw sa pagsulat ay isang paraan ng pagtingin sa proseso ng pagsulat.</li>
+        </ul>
+        <h2>4. Pagsulat bilang multidimensional na proseso</h2>
+        <ul>
+          <li>Bago sumulat – binubuo ito ng pagpili ng paksa, paglika ng mga ideya at pagbuo ng mga ideya</li>
+          <li>Pagsulat – pagbuo ng draft, pagtanggap ng fidbak, pagsangguni at pagrerebisa</li>
+          <li>Paglalathala – sangkot dito ang pagdidisplay ng komposisyon o sulatin sa bulletin board o kaya’y paglilimbag o paglalathala </li>
+        </ul>
+        <h2>5. Layunin sa Pagsulat</h2>
+        <ul>
+          <li>Ekspresib – personal na pagsulat upang maipahayag ang sarili</li>
+          <li>Formulari – isang mataas at istandardisadong pagsulat katulad ng kasulutan o kasunduan sa Negosyo o bisnes at iba pang transyong legal, political, at pang-ekonomiya</li>
+          <li>Imaginatibo – ginagamit upang mabigyang-ekspresyon ang mapanilikhang imahinasyon ng manunulat sa pagsulat ng mga dula, awit, tula, isksrip at iba pa</li>
+          <li>Informatib – upang magbigay ng mahahalagang inpormasyon at ebidensya</li>
+          <li>Persweysib – updang makapanghikayat, mapaniwala ang mambabasa dahil sa mga ebidensya katibayang ipinahayag</li>
+        </ul>
+        <h2>6. Hakbang Pagsulat</h2>
+        <ul>
+          <li>Prewriting / Gawain Bago Sumulat – ginagawa rito ang pagpili ng paksang isusulat at ang pangangalap ng mga datos o impormasyong kailangan sa pagsulat.</li>
+          <li>Actual writing – dito isinasagawa ang aktwal na pagsulat. Nakapaloob dito ang pagsulat ng burador o draft.</li>
+          <li>Rewriting – dito nagaganap ang pag-eedit at pagrerebisa ng draft batay sa wastong grammar, bokabulari at pagkakasunod-sunod ng mga ideya o lohika.</li>
+        </ul>
+        <h2>7. Mga Kasanayan sa Akademikong Pagsulat / Pagbuo ng konseptong papel</h2>
+        <p>KONSEPTONG PAPEL</p>
+        <ul>
+          <li>Ay inihahanda upang magpaliwanag, magbigay linaw at bigyang-kahulugan ang isang konsepto, ideya o pormula sa isang malinaw na paraan.</li>
+          <li>Binabanggit nito ang kahalagahan, katangian at kaugnayan ng isang bagay (abstrak o konkreto man) sa paraang madaling maunawaan.</li>
+          <li>Halimbawa: Ano ang konsepto ng pag-ibig, kabiguan, pagtutulungan, kabayanihan, ekonomiya, kalayaan, edukasyon at iba pa.</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -185,95 +209,53 @@ const Module2Content = () => (
 const Module3Content = () => (
   <div className="content-grid">
     <div className="text-section highlight">
-      <h2>Modyul 3: Pagbasa at Pagsulat sa Teknolohiya</h2>
-      <div className="text-content">
-        <p>Sa larangan ng teknolohiya, ang pagbasa at pagsulat ay nakatuon sa paglalarawan ng mga makabagong sistema, proseso, at kagamitan.</p>
-
-        <h3>Mga Uri ng Teknikal na Dokumentasyon</h3>
-        <ul>
-          <li><strong>User Manual</strong> - Gabay sa paggamit ng produkto o sistema</li>
-          <li><strong>Technical Specifications</strong> - Detalyadong paglalarawan ng mga katangian</li>
-          <li><strong>Process Documentation</strong> - Dokumentasyon ng mga hakbang at pamamaraan</li>
-        </ul>
-
-        <blockquote>
-          "Ang mahusay na teknikal na pagsulat ay nagbibigay-daan sa mas madaling pag-unawa ng komplikadong teknolohiya."
-        </blockquote>
-
-        <h3>Mga Elemento ng Teknikal na Pagsulat</h3>
-        <ol>
-          <li>Malinaw na istraktura</li>
-          <li>Step-by-step na paglalarawan</li>
-          <li>Visual aids at diagrama</li>
-          <li>Konsistenteng terminolohiya</li>
-        </ol>
-      </div>
-    </div>
-  </div>
-);
-
-const Module4Content = () => (
-  <div className="content-grid">
-    <div className="text-section highlight">
-      <h2>Modyul 4: Pagbasa at Pagsulat sa Negosyo</h2>
-      <div className="text-content">
-        <p>Ang larangan ng negosyo ay nangangailangan ng partikular na kasanayan sa pagbasa at pagsulat ng mga dokumentong pangnegosyo.</p>
-
-        <h3>Mga Uri ng Business Writing</h3>
-        <ul>
-          <li><strong>Business Proposal</strong> - Panukala para sa negosyo</li>
-          <li><strong>Marketing Materials</strong> - Mga materyales pang-marketing</li>
-          <li><strong>Corporate Communications</strong> - Komunikasyong pangkorporasyon</li>
-        </ul>
-
-        <blockquote>
-          "Sa negosyo, ang propesyonal na pagsulat ay nagpapakita ng kredibilidad at kahusayan."
-        </blockquote>
-
-        <h3>Mga Prinsipyo ng Business Writing</h3>
-        <ol>
-          <li>Direkta at malinaw na komunikasyon</li>
-          <li>Propesyonal na tono</li>
-          <li>Data-driven na presentasyon</li>
-          <li>Target audience consideration</li>
-        </ol>
-      </div>
-    </div>
-  </div>
-);
-
-const Module5Content = () => (
-  <div className="content-grid">
-    <div className="text-section highlight">
-      <h2>Modyul 5: Pagbasa at Pagsulat sa Sining at Kultura</h2>
+      <h2>Talasanggunian / Mga Sanggunian sa Internet</h2>
       <div className="text-content">
         <p>Ang pagbasa at pagsulat sa larangan ng sining at kultura ay nangangailangan ng mas malikhaing approach at malalim na pag-unawa sa kulturang Pilipino.</p>
-
-        <h3>Mga Uri ng Kultural na Teksto</h3>
-        <ul>
-          <li><strong>Art Criticism</strong> - Pagsusuri ng sining</li>
-          <li><strong>Cultural Essays</strong> - Sanaysay tungkol sa kultura</li>
-          <li><strong>Creative Writing</strong> - Malikhaing pagsulat</li>
-        </ul>
-
-        <blockquote>
-          "Ang pagsulat tungkol sa kultura ay isang paraan ng pagpapanatili at pagpapayaman ng ating pagkakakilanlan."
-        </blockquote>
-
-        <h3>Mga Elemento ng Kultural na Pagsulat</h3>
-        <ol>
-          <li>Kontekstwalisasyon ng kultura</li>
-          <li>Malikhaing pagpapahayag</li>
-          <li>Kulturang sensitibidad</li>
-          <li>Paggamit ng mga kultural na reperensya</li>
-        </ol>
+        <p>
+          Pagbasa Sa Mga Tekstong Propesyonal: 
+          <a
+            href="https://www.scribd.com/doc/298141461/Pagbasa-Sa-Mga-Tekstong-Propesyonal"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="custom-link"
+          >
+            https://www.scribd.com/doc/298141461/Pagbasa-Sa-Mga-Tekstong-Propesyonal
+          </a>
+        </p>
+        <p>Bernales, et.al, 2022</p>
+        <p>PAGBASA AT PAGSULAT SA IBA’T IBANG DISIPLINA (Filipino 102)</p>
+        <a
+          href="https://www.studocu.com/ph/document/mountain-view-college-phillipines/education/pagbasa-at-pagsulat-sa-ibat-ibang-disiplina-filipino-102/23758879"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="custom-link"
+        >
+          https://www.studocu.com/ph/document/mountain-view-college-phillipines/education/pagbasa-at-pagsulat-sa-ibat-ibang-disiplina-filipino-102/23758879
+        </a>
+        <a
+          href="https://www.slideshare.net/EmmanuelAlimpolos/mga-kasanayan-sa-akademikong-pagbasa-55453099"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="custom-link"
+        >
+          https://www.slideshare.net/EmmanuelAlimpolos/mga-kasanayan-sa-akademikong-pagbasa-55453099
+        </a>
+        <a
+          href="https://slideplayer.com/slide/14124002/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="custom-link"
+        >
+          https://slideplayer.com/slide/14124002/
+        </a>
       </div>
     </div>
   </div>
 );
 
 function Pagbasa() {
-  const [selectedModule, setSelectedModule] = useState('');
+  const [selectedModule, setSelectedModule] = useState('1');
 
   const renderContent = () => {
     switch(selectedModule) {
@@ -283,53 +265,8 @@ function Pagbasa() {
         return <Module2Content />;
       case '3':
         return <Module3Content />;
-      case '4':
-        return <Module4Content />;
-      case '5':
-        return <Module5Content />;
       default:
-        return (
-          <div className="content-grid">
-            <div className="text-section highlight">
-              <h2>Introduksyon sa Pagbasa at Pagsulat sa Iba't Ibang Disiplina</h2>
-              <div className="text-content">
-                <p>Ang kursong ito ay naglalayong paunlarin ang kakayahan ng mga mag-aaral sa pagbasa at pagsulat ng mga tekstong may kaugnayan sa iba't ibang larangan ng pag-aaral. Ito ay nakatuon sa pag-unawa at paglikha ng mga espesyalisadong teksto sa iba't ibang disiplina.</p>
-
-                <blockquote>
-                  "Ang kakayahang magbasa at magsulat sa iba't ibang disiplina ay susi sa matagumpay na pakikilahok sa iba't ibang larangan ng lipunan."
-                </blockquote>
-
-                <h3>Layunin ng Kurso</h3>
-                <ul>
-                  <li><strong>Interdisciplinary Understanding</strong> - Pag-unawa sa iba't ibang larangan</li>
-                  <li><strong>Technical Writing Skills</strong> - Pagpapaunlad ng teknikal na pagsulat</li>
-                  <li><strong>Professional Communication</strong> - Kahusayan sa propesyonal na komunikasyon</li>
-                  <li><strong>Critical Reading</strong> - Kritikal na pagbasa at pag-unawa</li>
-                </ul>
-
-                <h3>Mga Pangunahing Larangan</h3>
-                <p>Ang kurso ay sumasaklaw sa mga sumusunod na larangan:</p>
-                <ol>
-                  <li>Agham at Pananaliksik</li>
-                  <li>Teknolohiya at Engineering</li>
-                  <li>Negosyo at Ekonomiya</li>
-                  <li>Sining at Kultura</li>
-                  <li>Sosyal na Agham</li>
-                </ol>
-
-                <h3>Mga Modyul sa Kursong Ito</h3>
-                <p>Ang kurso ay nahahati sa limang mahahalagang modyul:</p>
-                <ol>
-                  <li><strong>Modyul 1: Introduksyon sa Interdisciplinary na Pagbasa at Pagsulat</strong></li>
-                  <li><strong>Modyul 2: Pagbasa at Pagsulat sa Agham</strong></li>
-                  <li><strong>Modyul 3: Pagbasa at Pagsulat sa Teknolohiya</strong></li>
-                  <li><strong>Modyul 4: Pagbasa at Pagsulat sa Negosyo</strong></li>
-                  <li><strong>Modyul 5: Pagbasa at Pagsulat sa Sining at Kultura</strong></li>
-                </ol>
-              </div>
-            </div>
-          </div>
-        );
+        return null;
     }
   };
 
@@ -348,12 +285,10 @@ function Pagbasa() {
               value={selectedModule}
               onChange={(e) => setSelectedModule(e.target.value)}
             >
-              <option value="">Pumili ng Modyul</option>
-              <option value="1">Modyul 1: Introduksyon sa Interdisciplinary na Pagbasa at Pagsulat</option>
-              <option value="2">Modyul 2: Pagbasa at Pagsulat sa Agham</option>
-              <option value="3">Modyul 3: Pagbasa at Pagsulat sa Teknolohiya</option>
-              <option value="4">Modyul 4: Pagbasa at Pagsulat sa Negosyo</option>
-              <option value="5">Modyul 5: Pagbasa at Pagsulat sa Sining at Kultura</option>
+              <option value="">Pumili ng Aralin</option>
+              <option value="1">Aralin 1: PAGBASA SA IBA’T IBANG DISCIPLINA</option>
+              <option value="2">Aralin 2: PAGSULAT SA IBA’T IBANG DISCIPLINA</option>
+              <option value="3">Talasanggunian / Mga Sanggunian sa Internet</option>
             </select>
           </div>
         </div>

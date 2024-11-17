@@ -70,7 +70,7 @@ const LandingPage = () => {
                     <li>Aralin 3: Ang Wika</li>
                     <li>Aralin 4: Ang Masining na Pagbabasa, Pakikinig at Pag-unawa</li>
                     <li>Aralin 5: Ang Masining na Pagsasalita</li>
-                    <li>Talasanggunian / Mga Sanggunian sa Internet (add also in the PAGE - dropdown)</li>
+                    <li>Talasanggunian / Mga Sanggunian sa Internet</li>
                   </ul>
                 </div>
               </div>
@@ -91,7 +91,7 @@ const LandingPage = () => {
                     <ul>
                       <li>Aralin 1: Pagbasa sa Iba’t Ibang Disciplina</li>
                       <li>Aralin 2: Pagsulat sa Iba’t Ibang Disciplina</li>
-                      <li>Talasanggunian / Mga Sanggunian sa Internet (add also in the PAGE - dropdown)</li>
+                      <li>Talasanggunian / Mga Sanggunian sa Internet</li>
                     </ul>
                   </div>
                 </div>

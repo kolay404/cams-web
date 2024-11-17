@@ -90,11 +90,11 @@ const Aralin1Content = () => (
           </ol>
           <h2><b>3. Ang Paghihiram</b></h2>
           <ol type="a">
-            <li><i>Tumbasan ng kasulukuyang leksikon sa Filipino ang mga salitang hiram o banyaga.</i></li>
+            <li>Tumbasan ng kasulukuyang leksikon sa Filipino ang mga salitang hiram o banyaga.</li>
               <p>rule	-	tuntunin</p>
-            <li><i>Gamitin ang natatanging mga salita mula sa mga katutubong wika sa Pilipinas at panatilihin ang orihinal na baybay.</i></li>
+            <li>Gamitin ang natatanging mga salita mula sa mga katutubong wika sa Pilipinas at panatilihin ang orihinal na baybay.</li>
               <p>“imam” (Tausug)	-	tawag sa paring Muslim</p>
-            <li><i>Mga Salitang Hiram sa Espanol</i></li>
+            <li>Mga Salitang Hiram sa Espanol</li>
               <ul>
                   <li>Baybayin ang salita ayon sa ABAKADA</li>
                   <p>telefono	-	telepono</p>
@@ -119,8 +119,8 @@ const Aralin2Content = () => (
         <ol>
           <li><b>Mga Uri mg Komunikasyon</b>
             <ol>
-              <li>Komunikasyong Berbal - Ang paggamit ng wika sa pasalita at pasulat na anyo.</li>
-              <li>Komunikasyong Di-Berbal - Ang pagpapahayag ng mensahe sa pamamagitan ng kilos, ekspresyon ng mukha, at kumpas ng kamay.</li>
+              <li><i>Komunikasyong Berbal</i> - Ang paggamit ng wika sa pasalita at pasulat na anyo.</li>
+              <li><i>Komunikasyong Di-Berbal</i> - Ang pagpapahayag ng mensahe sa pamamagitan ng kilos, ekspresyon ng mukha, at kumpas ng kamay.</li>
             </ol>
           </li>
           <li>Mga Uri ng Prosesong Pangkomunikasyon:
@@ -141,6 +141,8 @@ const Aralin3Content = () => (
     <div className="text-section highlight">
       <h2>Aralin 3: Ang Wika</h2>
       <div className="text-content">
+
+        <p>Ang <i><b>wika</b></i> ay isang sistema ng simbolo at tuntunin na ginagamit sa pagpapahayag ng mga ideya, damdamin, at kaisipan. Sa sining ng pakikipagtalastasan, ang wika ay pangunahing kasangkapan upang maging masining, malinaw, at epektibo ang komunikasyon. Ginagamit ito hindi lamang sa pang-araw-araw na usapan kundi pati sa iba’t ibang pormal na okasyon at publikasyon.</p>
 
       <ol>
           <li><b>Antas ng Wika:</b>
@@ -209,20 +211,56 @@ const Aralin5Content = () => (
         <ol>
           <li><b>Mga Sangkap ng Masining na Pagsasalita:</b>
             <ol>
-              <li>Kagandahan</li>
-              <li>Kawastuhan</li>
+              <li><i>Kagandahan</i></li>
+              <li><i>Kawastuhan</i></li>
             </ol>
-            <p>Dahil dito and retorika at balarila ay hindi na maaring paghiwalayin.</p>
+            <p>Dahil dito and <b>retorika</b> at <b>balarila</b> ay hindi na maaring paghiwalayin.</p>
             <p><b>Retorika</b> – ang sumasaklaw sa kagandahan</p>
             <p><b>Balarila</b> – ang sumasaklaw sa kawastuhan</p>
           </li>
           <li><b>Mga Masining na Pagsasalita sa Iba’t Ibang Pagkakataon:</b>
             <ol>
-              <li>Ang pakikipag-usap sa dalawahan</li>
-              <li>Ang pakikipanayam o interbyu (pangkaalaman at panghanapbuhay)</li>
-              <li>Ang pakikipag-usap sa telepono</li>
+              <li><i>Ang pakikipag-usap sa dalawahan</i></li>
+              <li><i>Ang pakikipanayam o interbyu (pangkaalaman at panghanapbuhay)</i></li>
+              <li><i>Ang pakikipag-usap sa telepono</i></li>
             </ol>
           </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+);
+
+const Aralin6Content = () => (
+  <div className="content-grid">
+    <div className="text-section highlight">
+      <h2>Talasanggunian / Mga Sanggunian sa Internet</h2>
+      <div className="text-content">
+
+        <ol type="1">
+            <li>Santiago, Erlinda M, Ang Sining Ng Pakikipagtalastasan Sa Kolehiyo</li>
+            <li>Sauco, Consolacion P. (2004), Sining ng Pakikipagtalastasan: Karampatang-Ari, Katha Publising Co., Inc.</li>
+            <li>Sining ng Pakikipagtalastasan at Panitikan sa wikang filipino: website
+            <a
+              href="https://www.slideshare.net/EmmanuelAlimpolos/mga-kasanayan-sa-akademikong-pagbasa-55453099"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="custom-link"
+            >
+              https://www.slideshare.net/EmmanuelAlimpolos/mga-kasanayan-sa-akademikong-pagbasa-55453099
+            </a>
+            <li>Roselle Abuel</li>
+            <li>Ang Masining Na Pagbigkas: webbsite
+            <a
+              href="https://www.slideshare.net/EmmanuelAlimpolos/mga-kasanayan-sa-akademikong-pagbasa-55453099"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="custom-link"
+            >
+              https://www.slideshare.net/EmmanuelAlimpolos/mga-kasanayan-sa-akademikong-pagbasa-55453099
+            </a>
+            </li>
+            </li>
         </ol>
       </div>
     </div>
@@ -244,6 +282,8 @@ function Sining() {
         return <Aralin4Content />;
       case '5':
         return <Aralin5Content />;
+      case '6':
+        return <Aralin6Content />;
       default:
         return (
           <div className="content-grid">
@@ -279,6 +319,7 @@ function Sining() {
               <option value="3">Aralin 3: Ang Wika</option>
               <option value="4">Aralin 4: Ang Masining na Pagbabasa, Pakikinig at Pag-unawa</option>
               <option value="5">Aralin 5: Ang Masining na Pagsasalita</option>
+              <option value="6">Talasanggunian / Mga Sanggunian sa Internet</option>
             </select>
           </div>
         </div>

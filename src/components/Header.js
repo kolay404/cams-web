@@ -24,8 +24,8 @@ function Header() {
           
           <div className={`dropdown-content ${isDropdownOpen ? 'show' : ''}`}>
             <Link to="/" onClick={toggleDropdown}>Home</Link>
-            <Link to="/sining" onClick={toggleDropdown}>Sining</Link>
-            <Link to="/pagbasa" onClick={toggleDropdown}>Pagbasa</Link>
+            <Link to="/sining" onClick={toggleDropdown}>Sining ng Pakikipagtalastasan</Link>
+            <Link to="/pagbasa" onClick={toggleDropdown}>Pagbasa at Pagsulat sa Iba't Ibang Disiplina</Link>
           </div>
         </div>
       </div>

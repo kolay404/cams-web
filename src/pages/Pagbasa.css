@@ -266,6 +266,26 @@ body::before {
     color: white;
 }
 
+/* Style for the link color */
+.custom-link {
+    color: rgb(243, 243, 12); /* Replace this with your desired color */
+    text-decoration: none; /* Remove underline (optional) */
+    display: block; /* Ensure each link is on a new line */
+    margin: 5px 0; /* Add slight margin between links */
+  }
+  
+  /* Hover effect for better UX */
+  .custom-link:hover {
+    color: red; /* Slightly darker shade for hover */
+    text-decoration: underline; /* Add underline on hover (optional) */
+  }
+  
+  /* Style to control the spacing of links and paragraphs */
+  .text-content p {
+    margin-bottom: 10px; /* Adjust spacing between paragraphs */
+  }
+  
+
 /* Responsive design adjustments for different screen sizes */
 @media (max-width: 768px) {
     .pagbasa-container {
