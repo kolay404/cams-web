@@ -19,15 +19,7 @@ const LandingPage = () => {
         <div className="left-content">
           <img src="/citu logo.png" alt="CITU Logo" className="logo-image" />
           <div className="course-title-container">
-            <h1 className="main-title">FILIPINO SA PILING LARANGAN</h1>
             <div className="title-underline"></div>
-            <p className="course-subtitle">Pangkalahatang Pag-aaral ng Filipino sa Iba't Ibang Larangan</p>
-          </div>
-          <div className="course-description">
-            <div className="description-card">
-              <h3>Tungkol sa Kurso</h3>
-              <p>Isang komprehensibong programa na naglalayong paunlarin ang kakayahan sa paggamit ng Filipino sa iba't ibang aspeto ng komunikasyon at akademikong diskurso.</p>
-            </div>
           </div>
         </div>
       </div>
