@@ -29,10 +29,10 @@ const Module1Content = () => (
 
         <h2>Teorya sa Pagbasa</h2>
         <ol type="1">
-          <li>Teoryang Bottom up - ang sentro ng pagbasa ay ang teksto na kailangan munang maunawaan ng mambabasa bago siya makapagbigay ng kaukulang reaksyon o interpretasyon. Sa madali, ang pag-unawa sa tekstong binabasa ay nagsisimula sa teksto (botto) patungo sa mambabasa (up). </li>
-          <li>Teoryang Top Down - ay kabaligtaran naman ng “Bottom Up”. Sinasabi rito na ang pag-unawa sa teksto ay nagsisimula sa mambabasa (Up) patungo sa teksto (Down). Ang mambabasa ay nagiging isang aktibong “stock knowledge” o mga naka imbak na kaalaman na bunga ng kanyang mga karanasan. Dahil sasinasabing stock knowledge ay mabilis na nakauugnay ang mga mambabasa sa teksto. Tinatawag din itong “inside out” sa kadahilanang inilabas ng mambabasa ang dating kaalaman maiugnay sa teksto.</li>
-          <li>Teoryang Interaktib – dito pumapasok ang kahalagahan ng kasabihang “Learning is two-way process”. Sa teoryangito, hindi monopoly ng mgamambabasa ang pag-unawa sa teksto, sa halip kinakailangan ang interaksyon o pakikipag-ugnayan ng mambabasa sa guro, magulang, kaklase at iba pa upangmatamo ang pag-unawasatekstongbinasa. Gamitin ang teoryang ito sa pagtuturo ng mga mahihirap na konsepto tulad ng “Values Formation”. Halimbawa’y pagkakaisa ang mensaheng, nais bigyang-diin ng teksto. Maaaringmagmungkahi ang guro ng isang “team building activity”, upang magkaroon ng direkta ng pag-unawa ang mga mag-aaral sa gawain.</li>
-          <li>Teoryang Iskema - tumutukoy ang teoryang ito sa kalayaan ng mambabasa na magbigay ng kahulugan sa teksto. Pinaniniwalaan sa teoryang ito na ang teksto ay walang taglay na kahulugan at sa halip ay nagsisilbi lamang “stimuli” sa mga mambabasa upang magbigay ng reaksyon. Ang iskema ay nangangahulugan ng pagtugon sa mga “stimuli” nasumasaklaw sa iba’t ibang pagkilos sa iba’t ibang sitwasyon.</li>
+          <li><i>Teoryang Bottom up</i> - ang sentro ng pagbasa ay ang teksto na kailangan munang maunawaan ng mambabasa bago siya makapagbigay ng kaukulang reaksyon o interpretasyon. Sa madali, ang pag-unawa sa tekstong binabasa ay nagsisimula sa teksto (botto) patungo sa mambabasa (up). </li>
+          <li><i>Teoryang Top Down</i> - ay kabaligtaran naman ng “Bottom Up”. Sinasabi rito na ang pag-unawa sa teksto ay nagsisimula sa mambabasa (Up) patungo sa teksto (Down). Ang mambabasa ay nagiging isang aktibong “stock knowledge” o mga naka imbak na kaalaman na bunga ng kanyang mga karanasan. Dahil sasinasabing stock knowledge ay mabilis na nakauugnay ang mga mambabasa sa teksto. Tinatawag din itong “inside out” sa kadahilanang inilabas ng mambabasa ang dating kaalaman maiugnay sa teksto.</li>
+          <li><i>Teoryang Interaktib</i> – dito pumapasok ang kahalagahan ng kasabihang “Learning is two-way process”. Sa teoryangito, hindi monopoly ng mgamambabasa ang pag-unawa sa teksto, sa halip kinakailangan ang interaksyon o pakikipag-ugnayan ng mambabasa sa guro, magulang, kaklase at iba pa upangmatamo ang pag-unawasatekstongbinasa. Gamitin ang teoryang ito sa pagtuturo ng mga mahihirap na konsepto tulad ng “Values Formation”. Halimbawa’y pagkakaisa ang mensaheng, nais bigyang-diin ng teksto. Maaaringmagmungkahi ang guro ng isang “team building activity”, upang magkaroon ng direkta ng pag-unawa ang mga mag-aaral sa gawain.</li>
+          <li><i>Teoryang Iskema</i> - tumutukoy ang teoryang ito sa kalayaan ng mambabasa na magbigay ng kahulugan sa teksto. Pinaniniwalaan sa teoryang ito na ang teksto ay walang taglay na kahulugan at sa halip ay nagsisilbi lamang “stimuli” sa mga mambabasa upang magbigay ng reaksyon. Ang iskema ay nangangahulugan ng pagtugon sa mga “stimuli” nasumasaklaw sa iba’t ibang pagkilos sa iba’t ibang sitwasyon.</li>
         </ol>
 
         <h2>Apat na Hakbang sa Pagbasa</h2>
@@ -46,19 +46,19 @@ const Module1Content = () => (
         <h2>Mga Uri ng Pagbasa</h2>
         <h3>Pagbasa Ayon sa Paraan:</h3>
         <ol>
-          <li><b>Mabilisang pagbasa (Skimming)</b> - ang pinakamabilis na pagbasa na nakakaya ng isang tao. Nagtuturo ito sa mambabasa upang malaman ang pangkalahatang pananaw na matatagpuan sa mga aklat at iba pang nakalaimbag na babasahin. Tinatatawag din itong pinaraanang pagbasa at pinakamabilis na paraan ng pagbasa.
+          <li><b><i>Mabilisang pagbasa (Skimming)</i></b> - ang pinakamabilis na pagbasa na nakakaya ng isang tao. Nagtuturo ito sa mambabasa upang malaman ang pangkalahatang pananaw na matatagpuan sa mga aklat at iba pang nakalaimbag na babasahin. Tinatatawag din itong pinaraanang pagbasa at pinakamabilis na paraan ng pagbasa.
             <ul>
               <li>Pagtingin at pagbasa nang mabilisan sa kabuuang nilalaman ng isang aklat;</li>
               <li>Pagtingin at pagbasa ng mahahalagang datos na kailangan sa pananaliksik (key word);</li>
               <li>Pagkuha sa pangkalahatang impresyon sa nilalaman.</li>
             </ul>
           </li>
-          <li><b>Pahapyaw Na Pagbasa (Scanning)</b> - tumutukoy sa paghahanap ng isang tiyak na impormasyon sa isang pahina. Ito ang uri ng pagbasa na hindi hinahangad na makuha ang kaisipan ng sumulat dahil sa mahalaga rito'y makita ang hinahanap sa madali at mabilis na paraan. Tulad ng paghahanap ng telepono sa direktoryo, paghahanap ng trabaho, mga paupahang establisemento (buy & sell), pagtingin sa resulta ng mga eksamen, numerong nanalo sa swipstiks, lotto atbp.</li>
-          <li><b>Pagsusuring Pagbasa (Analytical Reading)</b> - nakasalalay sa mga materyales ang gawaing pagsusuri sa pagbasa. Ginagamit dito ng matalino at malalim na pag-lisip. Nahahasa rito ang kahusayan ng mag-aaral sa pamamagitan ng kanyang mapanuring pag-iisip.</li>
-          <li><b>Pamumunang Pagbasa (Critical Reading)</b> - Dapat na matiyak ng mambabasa na naunawaan ang buong nilalaman ng akda. Sa pamumuna hindi lamang ang nilalaman ng akda ang binibigyan ng pansin. Kasama rito ang pagpuna mula sa pamagat, simula, katawan (nilalaman) at wakas ng akda. Binibigyan din ng pansin o puna ang istruktura ng mga pangungusap, ang mga ginamit na salita o istilo sa pagsulat ng may-akda. Tinitingnan din ang kalakasan at kahinaan ng paksa at may-akda.</li>
-          <li><b>Tahimik Na Pagbasa (Silent Reading)</b> - mata lamang ang gumagalaw sa uri ng pagbasang ito, walang puwang dito ang paggamit ng bibig kaya walang tunog ng salita ang nalilikha ng bumabasa ng teksto.</li>
-          <li><b>Pasalitang Pagbasa (Oral Reading)</b> - pagbasa ito sa teksto na inaangkupan ng wastong pagbigkas sa mga salita at sapat na lakas ng tinig upang sapat na marinig at maunawaan ng mga tagapakinig.</li>
-          <li><b>Masinsinang Pagbasa</b> - hindi ito “undertime pressure” na pagbasa. Binibigyan dito ng guro ang mga mag-aaral ng sapat na panahon upang maisa-isang basahin at mapagtuunan ng pansin ang mga salitang bumubuo sa teksto. Pagpapabasa sa mag-aaral sa bahay ng isang teksto at sa pamamagitan ng kanyang nabasa ay ipalahad ang buod, aral at pananaw sa kanyang binasang aklat. Madadagdagan ang kanyang kaalaman sa pamamagitan ng ganitong pamamaraan.</li>
+          <li><b><i>Pahapyaw Na Pagbasa (Scanning)</i></b> - tumutukoy sa paghahanap ng isang tiyak na impormasyon sa isang pahina. Ito ang uri ng pagbasa na hindi hinahangad na makuha ang kaisipan ng sumulat dahil sa mahalaga rito'y makita ang hinahanap sa madali at mabilis na paraan. Tulad ng paghahanap ng telepono sa direktoryo, paghahanap ng trabaho, mga paupahang establisemento (buy & sell), pagtingin sa resulta ng mga eksamen, numerong nanalo sa swipstiks, lotto atbp.</li>
+          <li><b><i>Pagsusuring Pagbasa (Analytical Reading)</i></b> - nakasalalay sa mga materyales ang gawaing pagsusuri sa pagbasa. Ginagamit dito ng matalino at malalim na pag-lisip. Nahahasa rito ang kahusayan ng mag-aaral sa pamamagitan ng kanyang mapanuring pag-iisip.</li>
+          <li><b><i>Pamumunang Pagbasa (Critical Reading)</i></b> - Dapat na matiyak ng mambabasa na naunawaan ang buong nilalaman ng akda. Sa pamumuna hindi lamang ang nilalaman ng akda ang binibigyan ng pansin. Kasama rito ang pagpuna mula sa pamagat, simula, katawan (nilalaman) at wakas ng akda. Binibigyan din ng pansin o puna ang istruktura ng mga pangungusap, ang mga ginamit na salita o istilo sa pagsulat ng may-akda. Tinitingnan din ang kalakasan at kahinaan ng paksa at may-akda.</li>
+          <li><b><i>Tahimik Na Pagbasa (Silent Reading)</i></b> - mata lamang ang gumagalaw sa uri ng pagbasang ito, walang puwang dito ang paggamit ng bibig kaya walang tunog ng salita ang nalilikha ng bumabasa ng teksto.</li>
+          <li><b><i>Pasalitang Pagbasa (Oral Reading)</i></b> - pagbasa ito sa teksto na inaangkupan ng wastong pagbigkas sa mga salita at sapat na lakas ng tinig upang sapat na marinig at maunawaan ng mga tagapakinig.</li>
+          <li><b><i>Masinsinang Pagbasa</i></b> - hindi ito “undertime pressure” na pagbasa. Binibigyan dito ng guro ang mga mag-aaral ng sapat na panahon upang maisa-isang basahin at mapagtuunan ng pansin ang mga salitang bumubuo sa teksto. Pagpapabasa sa mag-aaral sa bahay ng isang teksto at sa pamamagitan ng kanyang nabasa ay ipalahad ang buod, aral at pananaw sa kanyang binasang aklat. Madadagdagan ang kanyang kaalaman sa pamamagitan ng ganitong pamamaraan.</li>
         </ol>
         
 
@@ -103,9 +103,9 @@ const Module1Content = () => (
           </ol>
             <li><b>Pagtiyak sa Damdamin, Tono, Layunin at pananaw ng Teksto</b></li>
             <ol type="i">
-              <li>Damdamin - Kung ano ang nagging saloobin ng mambabasa sa binasang teksto (saya/tuwa, lungkot, takot, galit, pagkabahala at iba pa.)</li>
-              <li>Tono - saloobin ng awtor sa paksang kanyang tinalakay masaya, malungkot, seryoso, mapagbiro, mapangutya). </li>
-              <li>Pananaw - tumutukoy sa punto de vistang ginagamit ng awtor</li>
+              <li><i>Damdamin</i> - Kung ano ang nagging saloobin ng mambabasa sa binasang teksto (saya/tuwa, lungkot, takot, galit, pagkabahala at iba pa.)</li>
+              <li><i>Tono</i> - saloobin ng awtor sa paksang kanyang tinalakay masaya, malungkot, seryoso, mapagbiro, mapangutya). </li>
+              <li><i>Pananaw</i> - tumutukoy sa punto de vistang ginagamit ng awtor</li>
                 <ul>
                   <li>Unang Panauhan - ako, ko, akin, kita, tayo, natin, atin, kami, naming at amin</li>
                   <li>Ikalawang Panauhan - ikaw, ka, mo, iyo, kayo, ninyo, at inyo</li>
@@ -121,7 +121,7 @@ const Module1Content = () => (
             <ol type="i">
               <li><i>Paghihinuha</i> (Inferencing) – tumutukoy sa kakayahang tukuyin ang isang bagay na hindi pa alam batay sa ilang clues.</li>
               <p>Clues: Pamagat ng Teksto, mga larawan sa binasang teksto </p>
-              <li><i>aghula</i> (prediksyon) – ang isang matalinong mambabasa ay nakakagawa ng halos akyureyt na hula kung ano ang susunod na mangyayari o maging ang kalabasan o wakas.</li>
+              <li><i>Paghula</i> (prediksyon) – ang isang matalinong mambabasa ay nakakagawa ng halos akyureyt na hula kung ano ang susunod na mangyayari o maging ang kalabasan o wakas.</li>
             </ol>
               <li><b>Pagsusuri kung Balido o Hindi ang Ideya</b></li>
                 <ol typeof="i">
@@ -171,31 +171,31 @@ const Module2Content = () => (
         </ul>
         <h2>3.	Sosyo-Kognitibong na Pananaw sa Pagsulat</h2>
         <ul>
-          <li>Sosyo – ito ay isang salitang tumutukoy sa lipunan ng mga tao. Samantalang ang kognitib naman ay tumutukoy sap ag-iisip.</li>
-          <li>Ang sosyo – kognitibong pananaw sa pagsulat ay isang paraan ng pagtingin sa proseso ng pagsulat.</li>
+          <li><i>Sosyo</i> – ito ay isang salitang tumutukoy sa lipunan ng mga tao. Samantalang ang kognitib naman ay tumutukoy sap ag-iisip.</li>
+          <li>Ang <i>sosyo – kognitibong</i> pananaw sa pagsulat ay isang paraan ng pagtingin sa proseso ng pagsulat.</li>
         </ul>
         <h2>4. Pagsulat bilang multidimensional na proseso</h2>
         <ul>
-          <li>Bago sumulat – binubuo ito ng pagpili ng paksa, paglika ng mga ideya at pagbuo ng mga ideya</li>
-          <li>Pagsulat – pagbuo ng draft, pagtanggap ng fidbak, pagsangguni at pagrerebisa</li>
-          <li>Paglalathala – sangkot dito ang pagdidisplay ng komposisyon o sulatin sa bulletin board o kaya’y paglilimbag o paglalathala </li>
+          <li><i>Bago sumulat</i> – binubuo ito ng pagpili ng paksa, paglika ng mga ideya at pagbuo ng mga ideya</li>
+          <li><i>Pagsulat</i> – pagbuo ng draft, pagtanggap ng fidbak, pagsangguni at pagrerebisa</li>
+          <li><i>Paglalathala</i> – sangkot dito ang pagdidisplay ng komposisyon o sulatin sa bulletin board o kaya’y paglilimbag o paglalathala </li>
         </ul>
         <h2>5. Layunin sa Pagsulat</h2>
         <ul>
-          <li>Ekspresib – personal na pagsulat upang maipahayag ang sarili</li>
-          <li>Formulari – isang mataas at istandardisadong pagsulat katulad ng kasulutan o kasunduan sa Negosyo o bisnes at iba pang transyong legal, political, at pang-ekonomiya</li>
-          <li>Imaginatibo – ginagamit upang mabigyang-ekspresyon ang mapanilikhang imahinasyon ng manunulat sa pagsulat ng mga dula, awit, tula, isksrip at iba pa</li>
-          <li>Informatib – upang magbigay ng mahahalagang inpormasyon at ebidensya</li>
-          <li>Persweysib – updang makapanghikayat, mapaniwala ang mambabasa dahil sa mga ebidensya katibayang ipinahayag</li>
+          <li><i>Ekspresib</i> – personal na pagsulat upang maipahayag ang sarili</li>
+          <li><i>Formulari</i> – isang mataas at istandardisadong pagsulat katulad ng kasulutan o kasunduan sa Negosyo o bisnes at iba pang transyong legal, political, at pang-ekonomiya</li>
+          <li><i>Imaginatibo</i> – ginagamit upang mabigyang-ekspresyon ang mapanilikhang imahinasyon ng manunulat sa pagsulat ng mga dula, awit, tula, isksrip at iba pa</li>
+          <li><i>Informatib</i> – upang magbigay ng mahahalagang inpormasyon at ebidensya</li>
+          <li><i>Persweysib</i> – updang makapanghikayat, mapaniwala ang mambabasa dahil sa mga ebidensya katibayang ipinahayag</li>
         </ul>
         <h2>6. Hakbang Pagsulat</h2>
         <ul>
-          <li>Prewriting / Gawain Bago Sumulat – ginagawa rito ang pagpili ng paksang isusulat at ang pangangalap ng mga datos o impormasyong kailangan sa pagsulat.</li>
-          <li>Actual writing – dito isinasagawa ang aktwal na pagsulat. Nakapaloob dito ang pagsulat ng burador o draft.</li>
-          <li>Rewriting – dito nagaganap ang pag-eedit at pagrerebisa ng draft batay sa wastong grammar, bokabulari at pagkakasunod-sunod ng mga ideya o lohika.</li>
+          <li><i>Prewriting / Gawain Bago Sumulat</i> – ginagawa rito ang pagpili ng paksang isusulat at ang pangangalap ng mga datos o impormasyong kailangan sa pagsulat.</li>
+          <li><i>Actual writing</i> – dito isinasagawa ang aktwal na pagsulat. Nakapaloob dito ang pagsulat ng burador o draft.</li>
+          <li><i>Rewriting</i> – dito nagaganap ang pag-eedit at pagrerebisa ng draft batay sa wastong grammar, bokabulari at pagkakasunod-sunod ng mga ideya o lohika.</li>
         </ul>
         <h2>7. Mga Kasanayan sa Akademikong Pagsulat / Pagbuo ng konseptong papel</h2>
-        <p>KONSEPTONG PAPEL</p>
+        <p><i>KONSEPTONG PAPEL</i></p>
         <ul>
           <li>Ay inihahanda upang magpaliwanag, magbigay linaw at bigyang-kahulugan ang isang konsepto, ideya o pormula sa isang malinaw na paraan.</li>
           <li>Binabanggit nito ang kahalagahan, katangian at kaugnayan ng isang bagay (abstrak o konkreto man) sa paraang madaling maunawaan.</li>

@@ -250,7 +250,7 @@ const Aralin6Content = () => (
               https://www.slideshare.net/EmmanuelAlimpolos/mga-kasanayan-sa-akademikong-pagbasa-55453099
             </a>
             <li>Roselle Abuel</li>
-            <li>Ang Masining Na Pagbigkas: webbsite
+            <li>Ang Masining Na Pagbigkas: website
             <a
               href="https://www.slideshare.net/EmmanuelAlimpolos/mga-kasanayan-sa-akademikong-pagbasa-55453099"
               target="_blank"
