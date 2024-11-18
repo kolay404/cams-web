@@ -278,7 +278,7 @@ function Pagbasa() {
       
       <div className="main-content">
         <div className="title-section">
-          <h1>PAGBASA AT PAGSULAT SA IBA'T IBANG DISIPLINA</h1>          
+          <h1>FIL 012: PAGBASA AT PAGSULAT SA IBA'T IBANG DISIPLINA</h1>          
           <div className="module-selector">
             <select 
               className="module-dropdown"

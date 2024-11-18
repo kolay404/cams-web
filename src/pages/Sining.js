@@ -151,7 +151,7 @@ const Aralin3Content = () => (
               <li><i>Pormal</i> - ito'y antas ng wika na istandard at kinikilala/ ginagamit ng nakakarami.</li>
                 <ul>
                   <li>Pambansa</li>
-                  <li>Pampanitikan 2</li>
+                  <li>Pampanitikan</li>
                 </ul>
               <li><i>Impormal</i> - antas ng wika na karaniwan, palasak, pang-araw-araw, madalas gamitin sa pakikipag-usap at pakikipagtalastasan.</li>
                 <ul>
@@ -306,7 +306,7 @@ function Sining() {
       
       <div className="main-content">
         <div className="title-section">
-          <h1>SINING NG PAKIKIPAGTALASTASAN</h1>
+          <h1>FIL 011: SINING NG PAKIKIPAGTALASTASAN</h1>
                     
           <div className="aralin-selector">
             <select 

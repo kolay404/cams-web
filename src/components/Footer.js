@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
                 <div className="contact-item">
                     <img src="/email.png" alt="Email Icon" className="contact-icon" />
-                    <span>camellebasillote@cit.edu</span>
+                    <span>camellejoy.basillote@cit.edu</span>
                 </div>
             </div>
 
