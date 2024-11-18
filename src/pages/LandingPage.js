@@ -55,7 +55,7 @@ const LandingPage = () => {
                   <div className="page-line right"></div>
                   <div className="page-fold"></div>
                 </button>
-                <div className="info-bubble enhanced">
+                <div className="info-bubble enhanced sining">
                   <ul>
                   <li>Aralin 1: Panimula</li>
                     <li>Aralin 2: Ang Komunikasyon</li>
