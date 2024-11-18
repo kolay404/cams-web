@@ -69,7 +69,6 @@ body::before {
         rgba(128, 0, 32, 0.1));
     border-radius: 22px;
     z-index: -1;
-    animation: borderGradient 6s ease infinite;
 }
 
 @keyframes borderGradient {

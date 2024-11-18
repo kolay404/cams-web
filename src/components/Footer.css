@@ -1,12 +1,14 @@
 .footer {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch; /* Ensures all sections have equal height */
-    gap: 30px;
+    gap: 10px;
     text-align: center;
+
+    border-top: 2px solid maroon; /* Adjust thickness and color as needed */
   }
   
   .footer-section {
