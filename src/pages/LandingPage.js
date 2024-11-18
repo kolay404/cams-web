@@ -55,9 +55,9 @@ const LandingPage = () => {
                   <div className="page-line right"></div>
                   <div className="page-fold"></div>
                 </button>
-                <div className="info-bubble enhanced sining">
+                <div className="info-bubble dark">
                   <ul>
-                  <li>Aralin 1: Panimula</li>
+                    <li>Aralin 1: Panimula</li>
                     <li>Aralin 2: Ang Komunikasyon</li>
                     <li>Aralin 3: Ang Wika</li>
                     <li>Aralin 4: Ang Masining na Pagbabasa, Pakikinig at Pag-unawa</li>
@@ -71,22 +71,22 @@ const LandingPage = () => {
                 <button 
                   className="page page3"
                   onClick={handlePagbasaClick}
-                  >
-                    <div className="page-line left"></div>
-                    <div className="page-content">
-                      <h3>PAGBASA AT PAGSULAT SA IBA'T IBANG DISCIPLINA</h3>
-                    </div>
-                    <div className="page-line right"></div>
-                    <div className="page-fold"></div>
-                  </button>
-                  <div className="info-bubble enhanced">
-                    <ul>
-                      <li>Aralin 1: Pagbasa sa Iba’t Ibang Disciplina</li>
-                      <li>Aralin 2: Pagsulat sa Iba’t Ibang Disciplina</li>
-                      <li>Talasanggunian / Mga Sanggunian sa Internet</li>
-                    </ul>
+                >
+                  <div className="page-line left"></div>
+                  <div className="page-content">
+                    <h3>PAGBASA AT PAGSULAT SA IBA'T IBANG DISCIPLINA</h3>
                   </div>
+                  <div className="page-line right"></div>
+                  <div className="page-fold"></div>
+                </button>
+                <div className="info-bubble dark">
+                  <ul>
+                    <li>Aralin 1: Pagbasa sa Iba't Ibang Disciplina</li>
+                    <li>Aralin 2: Pagsulat sa Iba't Ibang Disciplina</li>
+                    <li>Talasanggunian / Mga Sanggunian sa Internet</li>
+                  </ul>
                 </div>
+              </div>
                   
               <div className="page-wrapper">
                 <button 
