@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Sining.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import BackToTopButton from '../components/BackToTopButton';
 
 // Content components for each Aralin
 const Aralin1Content = () => (
@@ -327,6 +328,7 @@ function Sining() {
 
         {renderContent()}
       </div>
+      <BackToTopButton />
     </div>
     <Footer /> {/* Make sure this is inside the Fragment */}
     </>

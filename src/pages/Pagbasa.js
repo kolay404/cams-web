@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Pagbasa.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import BackToTopButton from '../components/BackToTopButton';
 
 // Content components for each module
 const Module1Content = () => (
@@ -292,9 +293,10 @@ function Pagbasa() {
             </select>
           </div>
         </div>
-
+  
         {renderContent()}
       </div>
+      <BackToTopButton />
     </div>
     <Footer /> {/* Make sure this is inside the Fragment */}
     </>

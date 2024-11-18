@@ -1,0 +1,38 @@
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: transparent; /* No background */
+    color: #800000; /* Maroon color */
+    border: none;
+    font-size: 30px; /* Larger arrow */
+    cursor: pointer;
+    display: none; /* Initially hidden */
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .back-to-top.visible {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .back-to-top:hover {
+    color: #660000; /* Darker maroon on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .back-to-top {
+      bottom: 15px; /* Adjust for smaller screens */
+      right: 15px;  /* Adjust for smaller screens */
+      font-size: 24px; /* Smaller font size for mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .back-to-top {
+      font-size: 20px; /* Even smaller on very small screens */
+    }
+  }
+  
